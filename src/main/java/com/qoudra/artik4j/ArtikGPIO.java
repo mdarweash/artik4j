@@ -17,6 +17,7 @@ import java.util.Properties;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.imageio.IIOException;
+import org.apache.logging.log4j.LogManager;
 
 /**
  *
@@ -31,11 +32,17 @@ public class ArtikGPIO {
     private static final String BASE_PWM_PATH = "/sys/class/pwm/pwmchip0/";
     private static final String BASE_PWM_EXPORT_PATH = "/sys/class/pwm/pwmchip0/export";
     private static final String BASE_PWM_UNEXPORT_PATH = "/sys/class/pwm/pwmchip0/unexport";
-
+    org.apache.logging.log4j.Logger log = LogManager.getLogger();
 
 //    private static final String GPIO="gpio";
     Properties pinsConfiguration;
     ARTIK_MODELS currentModel;
+
+    private void adjustPwm(PWM_PIN pin, long periodNanos, long dutyCycleNanos) throws IOException {
+        echoToPath(getPwmPath(pin) + "/period", periodNanos);
+        echoToPath(getPwmPath(pin) + "/duty_cycle", dutyCycleNanos);
+
+    }
 
     public enum PWM_PIN {
 
@@ -184,17 +191,14 @@ public class ArtikGPIO {
         return Integer.parseInt(br.readLine());
     }
 
-    public void initPWM(PWM_PIN pin, long periodNanos, long dutyCycleNanos) throws IOException {
+    public void initPWM(PWM_PIN pin) throws IOException {
         echoToPath(BASE_PWM_EXPORT_PATH, pin == PWM_PIN.PWM0 ? 0 : 1);
-        
-        echoToPath(getPwmPath(pin)+"/period", periodNanos);
-        echoToPath(getPwmPath(pin)+"/duty_cycle", dutyCycleNanos);
+
     }
 
-    public void enablePwm(PWM_PIN pin,boolean enable) throws IOException {
-        echoToPath(getPwmPath(pin) + "/enable", enable?1:0);
+    public void enablePwm(PWM_PIN pin, boolean enable) throws IOException {
+        echoToPath(getPwmPath(pin) + "/enable", enable ? 1 : 0);
     }
-
 
     public void releasePwm(PWM_PIN pin) throws IOException {
         echoToPath(BASE_PWM_UNEXPORT_PATH, pin == PWM_PIN.PWM0 ? 0 : 1);
@@ -208,26 +212,32 @@ public class ArtikGPIO {
         ArtikGPIO artikGPIO = new ArtikGPIO(ARTIK_MODELS.ARTIK5);
 
 //        artikGPIO.initPin(ArtikGPIO.PIN_DIRECTION.OUT, ArtikGPIO.ARTIK_PINS.J26pin5);
-
 //        artikGPIO.initPin(ArtikGPIO.PIN_DIRECTION.IN, ArtikGPIO.ARTIK_PINS.J26pin6);
-        
-        artikGPIO.initPWM(PWM_PIN.PWM0, 1000000, 500000);
-        artikGPIO.enablePwm(PWM_PIN.PWM0,true);
-        Thread.sleep(2000);
-        artikGPIO.enablePwm(PWM_PIN.PWM0,false);
-        artikGPIO.releasePwm(PWM_PIN.PWM0);
-        System.exit(0);
-        int x = 0;
-        for (int i = 0; i < 600; i++) {
-            artikGPIO.setPinState(ArtikGPIO.ARTIK_PINS.J26pin5, x++ % 2 == 0 ? ArtikGPIO.PIN_STATE.HIGH : ArtikGPIO.PIN_STATE.LOW);
-            PIN_STATE readPinStatus = artikGPIO.readPinStatus(ArtikGPIO.ARTIK_PINS.J26pin6);
-            System.out.println("pinstatus :" + readPinStatus);
-            int value = artikGPIO.readAnalogueValue(ArtikGPIO.ANALOG_PIN.A0);
-            System.out.println("analog :" + value);
-            Thread.sleep(1000);
+        try {
+            artikGPIO.initPWM(PWM_PIN.PWM0);
+        } catch (IOException iOException) {
+            System.out.println("Already Exported...");
         }
-        artikGPIO.releasePin(ArtikGPIO.ARTIK_PINS.J26pin5);
-        artikGPIO.releasePin(ArtikGPIO.ARTIK_PINS.J26pin6);
+        long i=0;
+        artikGPIO.enablePwm(PWM_PIN.PWM0, true);
+        do {
+            artikGPIO.adjustPwm(PWM_PIN.PWM0, i+=1000%1000000000, 500);
+        } while (true);
+//        Thread.sleep(2000);
+//        artikGPIO.enablePwm(PWM_PIN.PWM0, false);
+//        artikGPIO.releasePwm(PWM_PIN.PWM0);
+//        System.exit(0);
+//        int x = 0;
+//        for (int i = 0; i < 600; i++) {
+//            artikGPIO.setPinState(ArtikGPIO.ARTIK_PINS.J26pin5, x++ % 2 == 0 ? ArtikGPIO.PIN_STATE.HIGH : ArtikGPIO.PIN_STATE.LOW);
+//            PIN_STATE readPinStatus = artikGPIO.readPinStatus(ArtikGPIO.ARTIK_PINS.J26pin6);
+//            System.out.println("pinstatus :" + readPinStatus);
+//            int value = artikGPIO.readAnalogueValue(ArtikGPIO.ANALOG_PIN.A0);
+//            System.out.println("analog :" + value);
+//            Thread.sleep(1000);
+//        }
+//        artikGPIO.releasePin(ArtikGPIO.ARTIK_PINS.J26pin5);
+//        artikGPIO.releasePin(ArtikGPIO.ARTIK_PINS.J26pin6);
     }
 
 }
