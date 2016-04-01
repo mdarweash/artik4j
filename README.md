@@ -2,7 +2,7 @@
 
 here's a sample on how to use it
 
-public static void main(String[] args) throws IOException, InterruptedException {
+
         ArtikGPIO artikGPIO = new ArtikGPIO(ARTIK_MODELS.ARTIK5);
 
         artikGPIO.initPin(ArtikGPIO.PIN_DIRECTION.OUT, ArtikGPIO.ARTIK_PINS.J26pin5);
@@ -29,4 +29,4 @@ public static void main(String[] args) throws IOException, InterruptedException 
         }
         artikGPIO.releasePin(ArtikGPIO.ARTIK_PINS.J26pin5);
         artikGPIO.releasePin(ArtikGPIO.ARTIK_PINS.J26pin6);
-    }
+    
