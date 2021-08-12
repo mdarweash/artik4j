@@ -1,0 +1,3698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <df root="." name="0">
+      <df name="build">
+        <df name="app">
+        </df>
+        <df name="CMakeFiles">
+          <df name="3.16.3">
+            <df name="CompilerIdASM">
+            </df>
+            <df name="CompilerIdC">
+              <df name="tmp">
+              </df>
+              <in>CMakeCCompilerId.c</in>
+            </df>
+            <df name="CompilerIdCXX">
+              <df name="tmp">
+              </df>
+              <in>CMakeCXXCompilerId.cpp</in>
+            </df>
+          </df>
+          <df name="app.dir">
+            <df name="src">
+            </df>
+          </df>
+        </df>
+        <df name="Kconfig">
+        </df>
+        <df name="modules">
+          <df name="altera">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="atmel">
+            <df name="asf">
+              <df name="CMakeFiles">
+              </df>
+              <df name="common">
+                <df name="CMakeFiles">
+                </df>
+                <df name="components">
+                  <df name="CMakeFiles">
+                  </df>
+                  <df name="wifi">
+                    <df name="CMakeFiles">
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="CANopenNode">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="civetweb">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="cmsis">
+            <df name="CMakeFiles">
+            </df>
+            <df name="CMSIS">
+              <df name="CMakeFiles">
+              </df>
+              <df name="Core">
+                <df name="CMakeFiles">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="cypress">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="espressif">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="fatfs">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="hal_nordic">
+            <df name="CMakeFiles">
+            </df>
+            <df name="nrfx">
+              <df name="CMakeFiles">
+                <df name="modules__hal_nordic__nrfx.dir">
+                  <df name="home">
+                    <df name="mdarweash">
+                      <df name="zephyrProjects">
+                        <df name="modules">
+                          <df name="hal">
+                            <df name="nordic">
+                              <df name="nrfx">
+                                <df name="drivers">
+                                  <df name="src">
+                                  </df>
+                                </df>
+                                <df name="mdk">
+                                </df>
+                              </df>
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="infineon">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="libmetal">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="littlefs">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="loramac-node">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="lvgl">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="lz4">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="mbedtls">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="mcuboot">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="mcumgr">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="microchip">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="mipi-sys-t">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="nanopb">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="nrf_hw_models">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="nuvoton">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="nxp">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="open-amp">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="openisa">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="openthread">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="quicklogic">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="segger">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="silabs">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="sof">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="st">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="stm32">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="telink">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="tensorflow">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="ti">
+            <df name="CMakeFiles">
+            </df>
+            <df name="simplelink">
+              <df name="CMakeFiles">
+              </df>
+              <df name="source">
+                <df name="ti">
+                  <df name="devices">
+                    <df name="CMakeFiles">
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="tinycbor">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="tinycrypt">
+            <df name="CMakeFiles">
+            </df>
+            <df name="lib">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+          </df>
+          <df name="TraceRecorder">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="trusted-firmware-m">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="xtensa">
+            <df name="CMakeFiles">
+            </df>
+          </df>
+        </df>
+        <df name="zephyr">
+          <df name="arch">
+            <df name="arch">
+              <df name="arm">
+                <df name="CMakeFiles">
+                </df>
+                <df name="core">
+                  <df name="aarch32">
+                    <df name="CMakeFiles">
+                      <df name="arch__arm__core__aarch32.dir">
+                      </df>
+                    </df>
+                    <df name="cortex_m">
+                      <df name="CMakeFiles">
+                        <df name="arch__arm__core__aarch32__cortex_m.dir">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="mpu">
+                      <df name="CMakeFiles">
+                        <df name="arch__arm__core__aarch32__mpu.dir">
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="CMakeFiles">
+            </df>
+            <df name="common">
+              <df name="CMakeFiles">
+                <df name="arch__common.dir">
+                </df>
+                <df name="isr_tables.dir">
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="boards">
+            <df name="arm">
+              <df name="arduino_nano_33_ble">
+                <df name="CMakeFiles">
+                  <df name="boards__arm__arduino_nano_33_ble.dir">
+                    <df name="src">
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="CMakeFiles">
+            </df>
+          </df>
+          <df name="cmake">
+            <df name="flash">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="reports">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="usage">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+          </df>
+          <df name="CMakeFiles">
+            <df name="offsets.dir">
+              <df name="arch">
+                <df name="arm">
+                  <df name="core">
+                    <df name="offsets">
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="zephyr.dir">
+              <df name="drivers">
+                <df name="clock_control">
+                </df>
+                <df name="timer">
+                </df>
+                <df name="watchdog">
+                </df>
+              </df>
+              <df name="home">
+                <df name="mdarweash">
+                  <df name="zephyrProjects">
+                    <df name="modules">
+                      <df name="crypto">
+                        <df name="tinycrypt">
+                          <df name="lib">
+                            <df name="source">
+                            </df>
+                          </df>
+                        </df>
+                      </df>
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="lib">
+                <df name="os">
+                </df>
+              </df>
+              <df name="misc">
+                <df name="generated">
+                </df>
+              </df>
+              <df name="soc">
+                <df name="arm">
+                  <df name="nordic_nrf">
+                    <df name="common">
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="subsys">
+                <df name="cpp">
+                </df>
+                <df name="net">
+                  <df name="lib">
+                    <df name="utils">
+                    </df>
+                  </df>
+                </df>
+                <df name="pm">
+                  <df name="policy">
+                  </df>
+                </df>
+                <df name="tracing">
+                </df>
+              </df>
+            </df>
+            <df name="zephyr_final.dir">
+              <df name="misc">
+              </df>
+            </df>
+            <df name="zephyr_prebuilt.dir">
+              <df name="misc">
+              </df>
+            </df>
+          </df>
+          <df name="drivers">
+            <df name="adc">
+              <df name="CMakeFiles">
+                <df name="drivers__adc.dir">
+                </df>
+              </df>
+            </df>
+            <df name="bluetooth">
+              <df name="CMakeFiles">
+              </df>
+              <df name="hci">
+                <df name="CMakeFiles">
+                </df>
+              </df>
+            </df>
+            <df name="clock_control">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="CMakeFiles">
+            </df>
+            <df name="console">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="disk">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="entropy">
+              <df name="CMakeFiles">
+                <df name="drivers__entropy.dir">
+                </df>
+              </df>
+            </df>
+            <df name="gpio">
+              <df name="CMakeFiles">
+                <df name="drivers__gpio.dir">
+                </df>
+              </df>
+            </df>
+            <df name="i2c">
+              <df name="CMakeFiles">
+                <df name="drivers__i2c.dir">
+                </df>
+              </df>
+            </df>
+            <df name="interrupt_controller">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="misc">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="pcie">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="sensor">
+              <df name="CMakeFiles">
+              </df>
+              <df name="grove">
+                <df name="CMakeFiles">
+                </df>
+              </df>
+            </df>
+            <df name="serial">
+              <df name="CMakeFiles">
+                <df name="drivers__serial.dir">
+                </df>
+              </df>
+            </df>
+            <df name="timer">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="watchdog">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+          </df>
+          <df name="include">
+            <df name="generated">
+              <df name="syscalls">
+                <in>adc.h</in>
+                <in>adc_channel_setup_mrsh.c</in>
+                <in>adc_read_async_mrsh.c</in>
+                <in>adc_read_mrsh.c</in>
+                <in>atomic_add_mrsh.c</in>
+                <in>atomic_and_mrsh.c</in>
+                <in>atomic_c.h</in>
+                <in>atomic_cas_mrsh.c</in>
+                <in>atomic_nand_mrsh.c</in>
+                <in>atomic_or_mrsh.c</in>
+                <in>atomic_ptr_cas_mrsh.c</in>
+                <in>atomic_ptr_set_mrsh.c</in>
+                <in>atomic_set_mrsh.c</in>
+                <in>atomic_sub_mrsh.c</in>
+                <in>atomic_xor_mrsh.c</in>
+                <in>cache.h</in>
+                <in>can.h</in>
+                <in>can_attach_msgq_mrsh.c</in>
+                <in>can_configure_mrsh.c</in>
+                <in>can_detach_mrsh.c</in>
+                <in>can_get_core_clock_mrsh.c</in>
+                <in>can_get_state_mrsh.c</in>
+                <in>can_recover_mrsh.c</in>
+                <in>can_send_mrsh.c</in>
+                <in>can_set_mode_mrsh.c</in>
+                <in>can_set_timing_mrsh.c</in>
+                <in>clock_gettime_mrsh.c</in>
+                <in>counter.h</in>
+                <in>counter_cancel_channel_alarm_mrsh.c</in>
+                <in>counter_get_frequency_mrsh.c</in>
+                <in>counter_get_guard_period_mrsh.c</in>
+                <in>counter_get_max_relative_alarm_mrsh.c</in>
+                <in>counter_get_max_top_value_mrsh.c</in>
+                <in>counter_get_num_of_channels_mrsh.c</in>
+                <in>counter_get_pending_int_mrsh.c</in>
+                <in>counter_get_top_value_mrsh.c</in>
+                <in>counter_get_value_mrsh.c</in>
+                <in>counter_is_counting_up_mrsh.c</in>
+                <in>counter_set_channel_alarm_mrsh.c</in>
+                <in>counter_set_guard_period_mrsh.c</in>
+                <in>counter_set_top_value_mrsh.c</in>
+                <in>counter_start_mrsh.c</in>
+                <in>counter_stop_mrsh.c</in>
+                <in>counter_ticks_to_us_mrsh.c</in>
+                <in>counter_us_to_ticks_mrsh.c</in>
+                <in>dac.h</in>
+                <in>dac_channel_setup_mrsh.c</in>
+                <in>dac_write_value_mrsh.c</in>
+                <in>device.h</in>
+                <in>device_get_binding_mrsh.c</in>
+                <in>device_usable_check_mrsh.c</in>
+                <in>dma.h</in>
+                <in>dma_chan_filter_mrsh.c</in>
+                <in>dma_release_channel_mrsh.c</in>
+                <in>dma_request_channel_mrsh.c</in>
+                <in>dma_start_mrsh.c</in>
+                <in>dma_stop_mrsh.c</in>
+                <in>ec_host_cmd_periph.h</in>
+                <in>ec_host_cmd_periph_init_mrsh.c</in>
+                <in>ec_host_cmd_periph_send_mrsh.c</in>
+                <in>eeprom.h</in>
+                <in>eeprom_get_size_mrsh.c</in>
+                <in>eeprom_read_mrsh.c</in>
+                <in>eeprom_write_mrsh.c</in>
+                <in>entropy.h</in>
+                <in>entropy_get_entropy_mrsh.c</in>
+                <in>errno_private.h</in>
+                <in>error.h</in>
+                <in>espi.h</in>
+                <in>espi_config_mrsh.c</in>
+                <in>espi_flash_erase_mrsh.c</in>
+                <in>espi_get_channel_status_mrsh.c</in>
+                <in>espi_read_flash_mrsh.c</in>
+                <in>espi_read_lpc_request_mrsh.c</in>
+                <in>espi_read_request_mrsh.c</in>
+                <in>espi_receive_oob_mrsh.c</in>
+                <in>espi_receive_vwire_mrsh.c</in>
+                <in>espi_saf.h</in>
+                <in>espi_saf_activate_mrsh.c</in>
+                <in>espi_saf_config_mrsh.c</in>
+                <in>espi_saf_flash_erase_mrsh.c</in>
+                <in>espi_saf_flash_read_mrsh.c</in>
+                <in>espi_saf_flash_write_mrsh.c</in>
+                <in>espi_saf_get_channel_status_mrsh.c</in>
+                <in>espi_saf_set_protection_regions_mrsh.c</in>
+                <in>espi_send_oob_mrsh.c</in>
+                <in>espi_send_vwire_mrsh.c</in>
+                <in>espi_write_flash_mrsh.c</in>
+                <in>espi_write_lpc_request_mrsh.c</in>
+                <in>espi_write_request_mrsh.c</in>
+                <in>ethernet.h</in>
+                <in>flash.h</in>
+                <in>flash_erase_mrsh.c</in>
+                <in>flash_get_page_count_mrsh.c</in>
+                <in>flash_get_page_info_by_idx_mrsh.c</in>
+                <in>flash_get_page_info_by_offs_mrsh.c</in>
+                <in>flash_get_parameters_mrsh.c</in>
+                <in>flash_get_write_block_size_mrsh.c</in>
+                <in>flash_read_jedec_id_mrsh.c</in>
+                <in>flash_read_mrsh.c</in>
+                <in>flash_sfdp_read_mrsh.c</in>
+                <in>flash_write_mrsh.c</in>
+                <in>flash_write_protection_set_mrsh.c</in>
+                <in>gpio.h</in>
+                <in>gpio_config_mrsh.c</in>
+                <in>gpio_get_pending_int_mrsh.c</in>
+                <in>gpio_pin_configure_mrsh.c</in>
+                <in>gpio_pin_interrupt_configure_mrsh.c</in>
+                <in>gpio_port_clear_bits_raw_mrsh.c</in>
+                <in>gpio_port_get_raw_mrsh.c</in>
+                <in>gpio_port_set_bits_raw_mrsh.c</in>
+                <in>gpio_port_set_masked_raw_mrsh.c</in>
+                <in>gpio_port_toggle_bits_mrsh.c</in>
+                <in>hwinfo.h</in>
+                <in>hwinfo_clear_reset_cause_mrsh.c</in>
+                <in>hwinfo_get_device_id_mrsh.c</in>
+                <in>hwinfo_get_reset_cause_mrsh.c</in>
+                <in>hwinfo_get_supported_reset_cause_mrsh.c</in>
+                <in>i2c.h</in>
+                <in>i2c_configure_mrsh.c</in>
+                <in>i2c_recover_bus_mrsh.c</in>
+                <in>i2c_slave_driver_register_mrsh.c</in>
+                <in>i2c_slave_driver_unregister_mrsh.c</in>
+                <in>i2c_transfer_mrsh.c</in>
+                <in>i2s.h</in>
+                <in>i2s_buf_read_mrsh.c</in>
+                <in>i2s_buf_write_mrsh.c</in>
+                <in>i2s_configure_mrsh.c</in>
+                <in>i2s_trigger_mrsh.c</in>
+                <in>ipm.h</in>
+                <in>ipm_max_data_size_get_mrsh.c</in>
+                <in>ipm_max_id_val_get_mrsh.c</in>
+                <in>ipm_send_mrsh.c</in>
+                <in>ipm_set_enabled_mrsh.c</in>
+                <in>ivshmem.h</in>
+                <in>ivshmem_get_id_mrsh.c</in>
+                <in>ivshmem_get_mem_mrsh.c</in>
+                <in>ivshmem_get_vectors_mrsh.c</in>
+                <in>ivshmem_int_peer_mrsh.c</in>
+                <in>ivshmem_register_handler_mrsh.c</in>
+                <in>k_busy_wait_mrsh.c</in>
+                <in>k_condvar_broadcast_mrsh.c</in>
+                <in>k_condvar_init_mrsh.c</in>
+                <in>k_condvar_signal_mrsh.c</in>
+                <in>k_condvar_wait_mrsh.c</in>
+                <in>k_current_get_mrsh.c</in>
+                <in>k_float_disable_mrsh.c</in>
+                <in>k_float_enable_mrsh.c</in>
+                <in>k_futex_wait_mrsh.c</in>
+                <in>k_futex_wake_mrsh.c</in>
+                <in>k_is_preempt_thread_mrsh.c</in>
+                <in>k_mem_paging_histogram_backing_store_page_in_get_mrsh.c</in>
+                <in>k_mem_paging_histogram_backing_store_page_out_get_mrsh.c</in>
+                <in>k_mem_paging_histogram_eviction_get_mrsh.c</in>
+                <in>k_mem_paging_stats_get_mrsh.c</in>
+                <in>k_mem_paging_thread_stats_get_mrsh.c</in>
+                <in>k_msgq_alloc_init_mrsh.c</in>
+                <in>k_msgq_get_attrs_mrsh.c</in>
+                <in>k_msgq_get_mrsh.c</in>
+                <in>k_msgq_num_free_get_mrsh.c</in>
+                <in>k_msgq_num_used_get_mrsh.c</in>
+                <in>k_msgq_peek_mrsh.c</in>
+                <in>k_msgq_purge_mrsh.c</in>
+                <in>k_msgq_put_mrsh.c</in>
+                <in>k_mutex_init_mrsh.c</in>
+                <in>k_mutex_lock_mrsh.c</in>
+                <in>k_mutex_unlock_mrsh.c</in>
+                <in>k_object_access_grant_mrsh.c</in>
+                <in>k_object_alloc_mrsh.c</in>
+                <in>k_object_release_mrsh.c</in>
+                <in>k_pipe_alloc_init_mrsh.c</in>
+                <in>k_pipe_get_mrsh.c</in>
+                <in>k_pipe_put_mrsh.c</in>
+                <in>k_pipe_read_avail_mrsh.c</in>
+                <in>k_pipe_write_avail_mrsh.c</in>
+                <in>k_poll_mrsh.c</in>
+                <in>k_poll_signal_check_mrsh.c</in>
+                <in>k_poll_signal_init_mrsh.c</in>
+                <in>k_poll_signal_raise_mrsh.c</in>
+                <in>k_poll_signal_reset_mrsh.c</in>
+                <in>k_queue_alloc_append_mrsh.c</in>
+                <in>k_queue_alloc_prepend_mrsh.c</in>
+                <in>k_queue_cancel_wait_mrsh.c</in>
+                <in>k_queue_get_mrsh.c</in>
+                <in>k_queue_init_mrsh.c</in>
+                <in>k_queue_is_empty_mrsh.c</in>
+                <in>k_queue_peek_head_mrsh.c</in>
+                <in>k_queue_peek_tail_mrsh.c</in>
+                <in>k_sem_count_get_mrsh.c</in>
+                <in>k_sem_give_mrsh.c</in>
+                <in>k_sem_init_mrsh.c</in>
+                <in>k_sem_reset_mrsh.c</in>
+                <in>k_sem_take_mrsh.c</in>
+                <in>k_sleep_mrsh.c</in>
+                <in>k_stack_alloc_init_mrsh.c</in>
+                <in>k_stack_pop_mrsh.c</in>
+                <in>k_stack_push_mrsh.c</in>
+                <in>k_str_out_mrsh.c</in>
+                <in>k_thread_abort_mrsh.c</in>
+                <in>k_thread_create_mrsh.c</in>
+                <in>k_thread_custom_data_get_mrsh.c</in>
+                <in>k_thread_custom_data_set_mrsh.c</in>
+                <in>k_thread_deadline_set_mrsh.c</in>
+                <in>k_thread_join_mrsh.c</in>
+                <in>k_thread_name_copy_mrsh.c</in>
+                <in>k_thread_name_set_mrsh.c</in>
+                <in>k_thread_priority_get_mrsh.c</in>
+                <in>k_thread_priority_set_mrsh.c</in>
+                <in>k_thread_resume_mrsh.c</in>
+                <in>k_thread_stack_space_get_mrsh.c</in>
+                <in>k_thread_start_mrsh.c</in>
+                <in>k_thread_suspend_mrsh.c</in>
+                <in>k_thread_timeout_expires_ticks_mrsh.c</in>
+                <in>k_thread_timeout_remaining_ticks_mrsh.c</in>
+                <in>k_timer_expires_ticks_mrsh.c</in>
+                <in>k_timer_remaining_ticks_mrsh.c</in>
+                <in>k_timer_start_mrsh.c</in>
+                <in>k_timer_status_get_mrsh.c</in>
+                <in>k_timer_status_sync_mrsh.c</in>
+                <in>k_timer_stop_mrsh.c</in>
+                <in>k_timer_user_data_get_mrsh.c</in>
+                <in>k_timer_user_data_set_mrsh.c</in>
+                <in>k_uptime_ticks_mrsh.c</in>
+                <in>k_usleep_mrsh.c</in>
+                <in>k_wakeup_mrsh.c</in>
+                <in>k_yield_mrsh.c</in>
+                <in>kernel.h</in>
+                <in>kobject.h</in>
+                <in>kscan.h</in>
+                <in>kscan_config_mrsh.c</in>
+                <in>kscan_disable_callback_mrsh.c</in>
+                <in>kscan_enable_callback_mrsh.c</in>
+                <in>led.h</in>
+                <in>led_blink_mrsh.c</in>
+                <in>led_get_info_mrsh.c</in>
+                <in>led_off_mrsh.c</in>
+                <in>led_on_mrsh.c</in>
+                <in>led_set_brightness_mrsh.c</in>
+                <in>led_set_channel_mrsh.c</in>
+                <in>led_set_color_mrsh.c</in>
+                <in>led_write_channels_mrsh.c</in>
+                <in>libc-hooks.h</in>
+                <in>log_buffered_cnt_mrsh.c</in>
+                <in>log_core.h</in>
+                <in>log_ctrl.h</in>
+                <in>log_filter_set_mrsh.c</in>
+                <in>log_msg2.h</in>
+                <in>log_panic_mrsh.c</in>
+                <in>log_process_mrsh.c</in>
+                <in>maxim_ds3231.h</in>
+                <in>maxim_ds3231_get_syncpoint_mrsh.c</in>
+                <in>maxim_ds3231_req_syncpoint_mrsh.c</in>
+                <in>mem_manage.h</in>
+                <in>mutex.h</in>
+                <in>net_addr_ntop_mrsh.c</in>
+                <in>net_addr_pton_mrsh.c</in>
+                <in>net_eth_get_ptp_clock_by_index_mrsh.c</in>
+                <in>net_if.h</in>
+                <in>net_if_get_by_index_mrsh.c</in>
+                <in>net_if_ipv4_addr_add_by_index_mrsh.c</in>
+                <in>net_if_ipv4_addr_lookup_by_index_mrsh.c</in>
+                <in>net_if_ipv4_addr_rm_by_index_mrsh.c</in>
+                <in>net_if_ipv4_set_gw_by_index_mrsh.c</in>
+                <in>net_if_ipv4_set_netmask_by_index_mrsh.c</in>
+                <in>net_if_ipv6_addr_add_by_index_mrsh.c</in>
+                <in>net_if_ipv6_addr_lookup_by_index_mrsh.c</in>
+                <in>net_if_ipv6_addr_rm_by_index_mrsh.c</in>
+                <in>net_ip.h</in>
+                <in>peci.h</in>
+                <in>peci_config_mrsh.c</in>
+                <in>peci_disable_mrsh.c</in>
+                <in>peci_enable_mrsh.c</in>
+                <in>peci_transfer_mrsh.c</in>
+                <in>ps2.h</in>
+                <in>ps2_config_mrsh.c</in>
+                <in>ps2_disable_callback_mrsh.c</in>
+                <in>ps2_enable_callback_mrsh.c</in>
+                <in>ps2_read_mrsh.c</in>
+                <in>ps2_write_mrsh.c</in>
+                <in>ptp_clock.h</in>
+                <in>ptp_clock_get_mrsh.c</in>
+                <in>pwm.h</in>
+                <in>pwm_get_cycles_per_sec_mrsh.c</in>
+                <in>pwm_pin_capture_cycles_mrsh.c</in>
+                <in>pwm_pin_disable_capture_mrsh.c</in>
+                <in>pwm_pin_enable_capture_mrsh.c</in>
+                <in>pwm_pin_set_cycles_mrsh.c</in>
+                <in>rand32.h</in>
+                <in>sensor.h</in>
+                <in>sensor_attr_get_mrsh.c</in>
+                <in>sensor_attr_set_mrsh.c</in>
+                <in>sensor_channel_get_mrsh.c</in>
+                <in>sensor_sample_fetch_chan_mrsh.c</in>
+                <in>sensor_sample_fetch_mrsh.c</in>
+                <in>socket.h</in>
+                <in>socket_select.h</in>
+                <in>spi.h</in>
+                <in>spi_release_mrsh.c</in>
+                <in>spi_transceive_mrsh.c</in>
+                <in>sys_cache_data_all_mrsh.c</in>
+                <in>sys_cache_data_range_mrsh.c</in>
+                <in>sys_cache_flush_mrsh.c</in>
+                <in>sys_cache_instr_all_mrsh.c</in>
+                <in>sys_cache_instr_range_mrsh.c</in>
+                <in>sys_cache_invd_mrsh.c</in>
+                <in>sys_clock_hw_cycles_per_sec_runtime_get_mrsh.c</in>
+                <in>sys_csrand_get_mrsh.c</in>
+                <in>sys_rand32_get_mrsh.c</in>
+                <in>sys_rand_get_mrsh.c</in>
+                <in>time.h</in>
+                <in>time_units.h</in>
+                <in>uart.h</in>
+                <in>uart_config_get_mrsh.c</in>
+                <in>uart_configure_mrsh.c</in>
+                <in>uart_drv_cmd_mrsh.c</in>
+                <in>uart_err_check_mrsh.c</in>
+                <in>uart_irq_err_disable_mrsh.c</in>
+                <in>uart_irq_err_enable_mrsh.c</in>
+                <in>uart_irq_is_pending_mrsh.c</in>
+                <in>uart_irq_rx_disable_mrsh.c</in>
+                <in>uart_irq_rx_enable_mrsh.c</in>
+                <in>uart_irq_tx_disable_mrsh.c</in>
+                <in>uart_irq_tx_enable_mrsh.c</in>
+                <in>uart_irq_update_mrsh.c</in>
+                <in>uart_line_ctrl_get_mrsh.c</in>
+                <in>uart_line_ctrl_set_mrsh.c</in>
+                <in>uart_mux.h</in>
+                <in>uart_mux_find_mrsh.c</in>
+                <in>uart_poll_in_mrsh.c</in>
+                <in>uart_poll_out_mrsh.c</in>
+                <in>uart_rx_disable_mrsh.c</in>
+                <in>uart_rx_enable_mrsh.c</in>
+                <in>uart_tx_abort_mrsh.c</in>
+                <in>uart_tx_mrsh.c</in>
+                <in>user_fault_mrsh.c</in>
+                <in>watchdog.h</in>
+                <in>wdt_disable_mrsh.c</in>
+                <in>wdt_feed_mrsh.c</in>
+                <in>wdt_setup_mrsh.c</in>
+                <in>z_clock_hw_cycles_per_sec_runtime_get_mrsh.c</in>
+                <in>z_errno_mrsh.c</in>
+                <in>z_log_hexdump_from_user_mrsh.c</in>
+                <in>z_log_msg2_runtime_vcreate_mrsh.c</in>
+                <in>z_log_msg2_static_create_mrsh.c</in>
+                <in>z_log_string_from_user_mrsh.c</in>
+                <in>z_sys_mutex_kernel_lock_mrsh.c</in>
+                <in>z_sys_mutex_kernel_unlock_mrsh.c</in>
+                <in>z_zephyr_read_stdin_mrsh.c</in>
+                <in>z_zephyr_write_stdout_mrsh.c</in>
+                <in>z_zsock_getaddrinfo_internal_mrsh.c</in>
+                <in>zephyr_fputc_mrsh.c</in>
+                <in>zephyr_fwrite_mrsh.c</in>
+                <in>zsock_accept_mrsh.c</in>
+                <in>zsock_bind_mrsh.c</in>
+                <in>zsock_close_mrsh.c</in>
+                <in>zsock_connect_mrsh.c</in>
+                <in>zsock_fcntl_mrsh.c</in>
+                <in>zsock_get_context_object_mrsh.c</in>
+                <in>zsock_gethostname_mrsh.c</in>
+                <in>zsock_getsockname_mrsh.c</in>
+                <in>zsock_getsockopt_mrsh.c</in>
+                <in>zsock_inet_pton_mrsh.c</in>
+                <in>zsock_listen_mrsh.c</in>
+                <in>zsock_poll_mrsh.c</in>
+                <in>zsock_recvfrom_mrsh.c</in>
+                <in>zsock_select_mrsh.c</in>
+                <in>zsock_sendmsg_mrsh.c</in>
+                <in>zsock_sendto_mrsh.c</in>
+                <in>zsock_setsockopt_mrsh.c</in>
+                <in>zsock_shutdown_mrsh.c</in>
+                <in>zsock_socket_mrsh.c</in>
+                <in>zsock_socketpair_mrsh.c</in>
+              </df>
+              <in>autoconf.h</in>
+              <in>device_extern.h</in>
+              <in>devicetree_fixups.h</in>
+              <in>devicetree_unfixed.h</in>
+              <in>driver-validation.h</in>
+              <in>kobj-types-enum.h</in>
+              <in>offsets.h</in>
+              <in>otype-to-size.h</in>
+              <in>otype-to-str.h</in>
+              <in>syscall_dispatch.c</in>
+              <in>syscall_list.h</in>
+              <in>version.h</in>
+            </df>
+          </df>
+          <df name="kconfig">
+            <df name="include">
+              <df name="config">
+              </df>
+              <df name="generated">
+              </df>
+            </df>
+          </df>
+          <df name="kernel">
+            <df name="CMakeFiles">
+              <df name="kernel.dir">
+              </df>
+            </df>
+          </df>
+          <df name="lib">
+            <df name="CMakeFiles">
+            </df>
+            <df name="gui">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="libc">
+              <df name="CMakeFiles">
+              </df>
+              <df name="newlib">
+                <df name="CMakeFiles">
+                  <df name="lib__libc__newlib.dir">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="os">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="posix">
+              <df name="CMakeFiles">
+                <df name="lib__posix.dir">
+                </df>
+              </df>
+            </df>
+            <df name="util">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+          </df>
+          <df name="misc">
+            <df name="generated">
+              <df name="syscalls_links">
+                <df name="include">
+                  <df name="app_memory">
+                    <in>app_memdomain.h</in>
+                    <in>mem_domain.h</in>
+                    <in>partitions.h</in>
+                  </df>
+                  <df name="arch">
+                    <df name="arc">
+                      <df name="asm-compat">
+                        <in>asm-macro-32-bit-gnu.h</in>
+                        <in>asm-macro-32-bit-mwdt.h</in>
+                        <in>asm-macro-64-bit-gnu.h</in>
+                        <in>assembler.h</in>
+                      </df>
+                      <df name="v2">
+                        <df name="mpu">
+                          <in>arc_core_mpu.h</in>
+                          <in>arc_mpu.h</in>
+                        </df>
+                        <df name="secureshield">
+                          <in>arc_secure.h</in>
+                        </df>
+                        <in>arc_connect.h</in>
+                        <in>arcv2_irq_unit.h</in>
+                        <in>asm_inline.h</in>
+                        <in>asm_inline_gcc.h</in>
+                        <in>aux_regs.h</in>
+                        <in>error.h</in>
+                        <in>exc.h</in>
+                        <in>irq.h</in>
+                        <in>misc.h</in>
+                        <in>sys_io.h</in>
+                      </df>
+                      <in>arch.h</in>
+                      <in>arch_inlines.h</in>
+                      <in>sys-io-common.h</in>
+                      <in>syscall.h</in>
+                      <in>thread.h</in>
+                      <in>tool-compat.h</in>
+                    </df>
+                    <df name="arm">
+                      <df name="aarch32">
+                        <df name="cortex_a_r">
+                          <df name="scripts">
+                          </df>
+                          <in>cmsis.h</in>
+                          <in>cmsis_ext.h</in>
+                          <in>cpu.h</in>
+                          <in>sys_io.h</in>
+                          <in>timer.h</in>
+                        </df>
+                        <df name="cortex_m">
+                          <df name="mpu">
+                            <in>arm_mpu.h</in>
+                            <in>arm_mpu_v7m.h</in>
+                            <in>arm_mpu_v8m.h</in>
+                            <in>nxp_mpu.h</in>
+                          </df>
+                          <df name="scripts">
+                          </df>
+                          <in>cmsis.h</in>
+                          <in>cpu.h</in>
+                          <in>fpu.h</in>
+                          <in>memory_map.h</in>
+                          <in>nvic.h</in>
+                        </df>
+                        <df name="cortex_r">
+                          <df name="scripts">
+                          </df>
+                          <in>cmsis.h</in>
+                          <in>cpu.h</in>
+                          <in>sys_io.h</in>
+                        </df>
+                        <df name="mpu">
+                          <in>arm_mpu.h</in>
+                          <in>arm_mpu_v7m.h</in>
+                          <in>arm_mpu_v8m.h</in>
+                          <in>nxp_mpu.h</in>
+                        </df>
+                        <in>arch.h</in>
+                        <in>asm_inline.h</in>
+                        <in>asm_inline_gcc.h</in>
+                        <in>error.h</in>
+                        <in>exc.h</in>
+                        <in>irq.h</in>
+                        <in>misc.h</in>
+                        <in>nmi.h</in>
+                        <in>syscall.h</in>
+                        <in>thread.h</in>
+                      </df>
+                      <df name="aarch64">
+                        <df name="scripts">
+                        </df>
+                        <in>arch.h</in>
+                        <in>arm_mmu.h</in>
+                        <in>asm_inline.h</in>
+                        <in>asm_inline_gcc.h</in>
+                        <in>cpu.h</in>
+                        <in>exc.h</in>
+                        <in>irq.h</in>
+                        <in>misc.h</in>
+                        <in>sys_io.h</in>
+                        <in>syscall.h</in>
+                        <in>thread.h</in>
+                        <in>timer.h</in>
+                      </df>
+                    </df>
+                    <df name="arm64">
+                      <df name="cortex_r">
+                        <df name="mpu">
+                          <in>arm_mpu.h</in>
+                        </df>
+                      </df>
+                      <in>arch.h</in>
+                      <in>arch_inlines.h</in>
+                      <in>arm-smccc.h</in>
+                      <in>arm_mmu.h</in>
+                      <in>asm_inline.h</in>
+                      <in>asm_inline_gcc.h</in>
+                      <in>cpu.h</in>
+                      <in>error.h</in>
+                      <in>exc.h</in>
+                      <in>irq.h</in>
+                      <in>lib_helpers.h</in>
+                      <in>misc.h</in>
+                      <in>structs.h</in>
+                      <in>sys_io.h</in>
+                      <in>syscall.h</in>
+                      <in>thread.h</in>
+                      <in>thread_stack.h</in>
+                      <in>timer.h</in>
+                      <in>tpidrro_el0.h</in>
+                    </df>
+                    <df name="common">
+                      <in>addr_types.h</in>
+                      <in>ffs.h</in>
+                      <in>sys_bitops.h</in>
+                      <in>sys_io.h</in>
+                    </df>
+                    <df name="nios2">
+                      <in>arch.h</in>
+                      <in>asm_inline.h</in>
+                      <in>asm_inline_gcc.h</in>
+                      <in>nios2.h</in>
+                      <in>thread.h</in>
+                    </df>
+                    <df name="posix">
+                      <in>arch.h</in>
+                      <in>asm_inline.h</in>
+                      <in>asm_inline_gcc.h</in>
+                      <in>posix_soc_if.h</in>
+                      <in>posix_trace.h</in>
+                      <in>thread.h</in>
+                    </df>
+                    <df name="riscv">
+                      <df name="common">
+                      </df>
+                      <df name="riscv-privilege">
+                        <in>asm_inline.h</in>
+                        <in>asm_inline_gcc.h</in>
+                      </df>
+                      <in>arch.h</in>
+                      <in>csr.h</in>
+                      <in>error.h</in>
+                      <in>exp.h</in>
+                      <in>syscall.h</in>
+                      <in>thread.h</in>
+                    </df>
+                    <df name="sparc">
+                      <in>arch.h</in>
+                      <in>sparc.h</in>
+                      <in>thread.h</in>
+                    </df>
+                    <df name="x86">
+                      <df name="ia32">
+                        <in>arch.h</in>
+                        <in>asm.h</in>
+                        <in>gdbstub.h</in>
+                        <in>segmentation.h</in>
+                        <in>sys_io.h</in>
+                        <in>syscall.h</in>
+                        <in>thread.h</in>
+                      </df>
+                      <df name="intel64">
+                        <in>arch.h</in>
+                        <in>syscall.h</in>
+                        <in>thread.h</in>
+                      </df>
+                      <in>acpi.h</in>
+                      <in>arch.h</in>
+                      <in>arch_inlines.h</in>
+                      <in>intel_vtd.h</in>
+                      <in>memmap.h</in>
+                      <in>mmustructs.h</in>
+                      <in>msr.h</in>
+                      <in>multiboot.h</in>
+                      <in>thread_stack.h</in>
+                    </df>
+                    <df name="xtensa">
+                      <in>arch.h</in>
+                      <in>arch_inlines.h</in>
+                      <in>atomic_xtensa.h</in>
+                      <in>cache.h</in>
+                      <in>exc.h</in>
+                      <in>irq.h</in>
+                      <in>thread.h</in>
+                      <in>xtensa_api.h</in>
+                      <in>xtensa_config.h</in>
+                      <in>xtensa_context.h</in>
+                      <in>xtensa_rtos.h</in>
+                      <in>xtensa_timer.h</in>
+                    </df>
+                    <in>arch_inlines.h</in>
+                    <in>cpu.h</in>
+                    <in>structs.h</in>
+                    <in>syscall.h</in>
+                  </df>
+                  <df name="audio">
+                    <in>codec.h</in>
+                    <in>dmic.h</in>
+                  </df>
+                  <df name="bluetooth">
+                    <df name="audio">
+                      <in>aics.h</in>
+                      <in>audio.h</in>
+                      <in>mics.h</in>
+                      <in>vcs.h</in>
+                      <in>vocs.h</in>
+                    </df>
+                    <df name="mesh">
+                      <in>access.h</in>
+                      <in>cdb.h</in>
+                      <in>cfg.h</in>
+                      <in>cfg_cli.h</in>
+                      <in>cfg_srv.h</in>
+                      <in>health_cli.h</in>
+                      <in>health_faults.h</in>
+                      <in>health_srv.h</in>
+                      <in>heartbeat.h</in>
+                      <in>main.h</in>
+                      <in>msg.h</in>
+                      <in>proxy.h</in>
+                    </df>
+                    <df name="services">
+                      <in>bas.h</in>
+                      <in>dis.h</in>
+                      <in>hrs.h</in>
+                      <in>ots.h</in>
+                    </df>
+                    <in>a2dp-codec.h</in>
+                    <in>a2dp.h</in>
+                    <in>addr.h</in>
+                    <in>att.h</in>
+                    <in>avdtp.h</in>
+                    <in>bluetooth.h</in>
+                    <in>buf.h</in>
+                    <in>conn.h</in>
+                    <in>controller.h</in>
+                    <in>crypto.h</in>
+                    <in>direction.h</in>
+                    <in>gap.h</in>
+                    <in>gatt.h</in>
+                    <in>hci.h</in>
+                    <in>hci_err.h</in>
+                    <in>hci_raw.h</in>
+                    <in>hci_vs.h</in>
+                    <in>hfp_hf.h</in>
+                    <in>iso.h</in>
+                    <in>l2cap.h</in>
+                    <in>mesh.h</in>
+                    <in>rfcomm.h</in>
+                    <in>sdp.h</in>
+                    <in>testing.h</in>
+                    <in>uuid.h</in>
+                  </df>
+                  <df name="canbus">
+                    <in>canopen.h</in>
+                    <in>isotp.h</in>
+                  </df>
+                  <df name="cmsis_rtos_v1">
+                    <in>cmsis_os.h</in>
+                  </df>
+                  <df name="cmsis_rtos_v2">
+                    <in>cmsis_os2.h</in>
+                  </df>
+                  <df name="console">
+                    <in>console.h</in>
+                    <in>tty.h</in>
+                  </df>
+                  <df name="crypto">
+                    <in>cipher.h</in>
+                    <in>cipher_structs.h</in>
+                  </df>
+                  <df name="data">
+                    <in>json.h</in>
+                    <in>jwt.h</in>
+                  </df>
+                  <df name="debug">
+                    <in>coredump.h</in>
+                    <in>gcov.h</in>
+                    <in>gdbstub.h</in>
+                    <in>object_tracing.h</in>
+                    <in>object_tracing_common.h</in>
+                    <in>stack.h</in>
+                    <in>thread_analyzer.h</in>
+                    <in>tracing.h</in>
+                  </df>
+                  <df name="devicetree">
+                    <in>clocks.h</in>
+                    <in>dma.h</in>
+                    <in>fixed-partitions.h</in>
+                    <in>gpio.h</in>
+                    <in>io-channels.h</in>
+                    <in>memory.h</in>
+                    <in>ordinals.h</in>
+                    <in>pwms.h</in>
+                    <in>spi.h</in>
+                    <in>zephyr.h</in>
+                  </df>
+                  <df name="dfu">
+                    <in>flash_img.h</in>
+                    <in>mcuboot.h</in>
+                  </df>
+                  <df name="disk">
+                    <in>disk_access.h</in>
+                  </df>
+                  <df name="display">
+                    <in>cfb.h</in>
+                    <in>framebuf.h</in>
+                    <in>grove_lcd.h</in>
+                    <in>mb_display.h</in>
+                  </df>
+                  <df name="drivers">
+                    <df name="adc">
+                      <in>adc_emul.h</in>
+                      <in>lmp90xxx.h</in>
+                    </df>
+                    <df name="bluetooth">
+                      <in>hci_driver.h</in>
+                    </df>
+                    <df name="clock_control">
+                      <in>arm_clock_control.h</in>
+                      <in>clock_control_litex.h</in>
+                      <in>lpc11u6x_clock_control.h</in>
+                      <in>mchp_xec_clock_control.h</in>
+                      <in>nrf_clock_control.h</in>
+                      <in>rcar_clock_control.h</in>
+                      <in>stm32_clock_control.h</in>
+                    </df>
+                    <df name="console">
+                      <in>console.h</in>
+                      <in>ipm_console.h</in>
+                      <in>native_posix_console.h</in>
+                      <in>uart_console.h</in>
+                      <in>uart_mcumgr.h</in>
+                      <in>uart_mux.h</in>
+                      <in>uart_pipe.h</in>
+                    </df>
+                    <df name="dma">
+                      <in>dma_stm32.h</in>
+                    </df>
+                    <df name="ec_host_cmd_periph">
+                      <in>ec_host_cmd_simulator.h</in>
+                    </df>
+                    <df name="gpio">
+                      <in>gpio_emul.h</in>
+                      <in>gpio_esp32.h</in>
+                      <in>gpio_mmio32.h</in>
+                      <in>gpio_sx1509b.h</in>
+                    </df>
+                    <df name="i2c">
+                      <df name="slave">
+                        <in>eeprom.h</in>
+                      </df>
+                    </df>
+                    <df name="ieee802154">
+                      <in>cc1200.h</in>
+                    </df>
+                    <df name="interrupt_controller">
+                      <in>exti_stm32.h</in>
+                      <in>gic.h</in>
+                      <in>intc_esp32.h</in>
+                      <in>intc_mchp_xec_ecia.h</in>
+                      <in>intel_vtd.h</in>
+                      <in>ioapic.h</in>
+                      <in>loapic.h</in>
+                      <in>sam0_eic.h</in>
+                      <in>sysapic.h</in>
+                    </df>
+                    <df name="led">
+                      <in>ht16k33.h</in>
+                      <in>lp503x.h</in>
+                    </df>
+                    <df name="misc">
+                      <df name="ft8xx">
+                        <in>ft8xx.h</in>
+                        <in>ft8xx_common.h</in>
+                        <in>ft8xx_copro.h</in>
+                        <in>ft8xx_dl.h</in>
+                        <in>ft8xx_memory.h</in>
+                        <in>ft8xx_reference_api.h</in>
+                      </df>
+                    </df>
+                    <df name="modem">
+                      <in>hl7800.h</in>
+                    </df>
+                    <df name="pcie">
+                      <df name="endpoint">
+                        <in>pcie_ep.h</in>
+                      </df>
+                      <in>msi.h</in>
+                      <in>pcie.h</in>
+                    </df>
+                    <df name="pm_cpu_ops">
+                      <in>psci.h</in>
+                    </df>
+                    <df name="rtc">
+                      <in>maxim_ds3231.h</in>
+                    </df>
+                    <df name="sensor">
+                      <in>ccs811.h</in>
+                      <in>fdc2x1x.h</in>
+                      <in>mcux_acmp.h</in>
+                      <in>sgp40.h</in>
+                      <in>sht4x.h</in>
+                    </df>
+                    <df name="timer">
+                      <in>arm_arch_timer.h</in>
+                      <in>nrf_rtc_timer.h</in>
+                      <in>system_timer.h</in>
+                    </df>
+                    <df name="uart">
+                      <in>cdc_acm.h</in>
+                    </df>
+                    <df name="usb">
+                      <in>usb_dc.h</in>
+                    </df>
+                    <df name="virtualization">
+                      <in>ivshmem.h</in>
+                    </df>
+                    <in>adc.h</in>
+                    <in>cache.h</in>
+                    <in>can.h</in>
+                    <in>clock_control.h</in>
+                    <in>counter.h</in>
+                    <in>dac.h</in>
+                    <in>disk.h</in>
+                    <in>display.h</in>
+                    <in>dma.h</in>
+                    <in>ec_host_cmd_periph.h</in>
+                    <in>edac.h</in>
+                    <in>eeprom.h</in>
+                    <in>emul.h</in>
+                    <in>entropy.h</in>
+                    <in>espi.h</in>
+                    <in>espi_emul.h</in>
+                    <in>espi_saf.h</in>
+                    <in>flash.h</in>
+                    <in>gna.h</in>
+                    <in>gpio.h</in>
+                    <in>gsm_ppp.h</in>
+                    <in>hwinfo.h</in>
+                    <in>i2c.h</in>
+                    <in>i2c_emul.h</in>
+                    <in>i2s.h</in>
+                    <in>ipm.h</in>
+                    <in>kscan.h</in>
+                    <in>led.h</in>
+                    <in>led_strip.h</in>
+                    <in>lora.h</in>
+                    <in>peci.h</in>
+                    <in>pinmux.h</in>
+                    <in>pm_cpu_ops.h</in>
+                    <in>ps2.h</in>
+                    <in>ptp_clock.h</in>
+                    <in>pwm.h</in>
+                    <in>regulator.h</in>
+                    <in>sensor.h</in>
+                    <in>spi.h</in>
+                    <in>spi_emul.h</in>
+                    <in>syscon.h</in>
+                    <in>uart.h</in>
+                    <in>video-controls.h</in>
+                    <in>video.h</in>
+                    <in>watchdog.h</in>
+                  </df>
+                  <df name="dt-bindings">
+                    <df name="adc">
+                      <in>adc.h</in>
+                    </df>
+                    <df name="clock">
+                      <in>esp32_clock.h</in>
+                      <in>imx_ccm.h</in>
+                      <in>imx_ccm_rev2.h</in>
+                      <in>kinetis_mcg.h</in>
+                      <in>kinetis_pcc.h</in>
+                      <in>kinetis_scg.h</in>
+                      <in>kinetis_sim.h</in>
+                      <in>lpc11u6x_clock.h</in>
+                      <in>mchp_xec_pcr.h</in>
+                      <in>mcux_lpc_syscon_clock.h</in>
+                      <in>npcx_clock.h</in>
+                      <in>renesas_rcar_cpg.h</in>
+                      <in>stm32_clock.h</in>
+                    </df>
+                    <df name="dac">
+                      <in>dacx0508.h</in>
+                    </df>
+                    <df name="display">
+                      <in>ili9340.h</in>
+                      <in>ili9xxx.h</in>
+                    </df>
+                    <df name="dma">
+                      <in>stm32_dma.h</in>
+                    </df>
+                    <df name="espi">
+                      <in>npcx_espi.h</in>
+                    </df>
+                    <df name="ethernet">
+                      <in>xlnx_gem.h</in>
+                    </df>
+                    <df name="gpio">
+                      <in>gpio.h</in>
+                    </df>
+                    <df name="i2c">
+                      <in>i2c.h</in>
+                    </df>
+                    <df name="interrupt-controller">
+                      <in>arm-gic.h</in>
+                      <in>esp-xtensa-intmux.h</in>
+                      <in>intel-ioapic.h</in>
+                      <in>intel-mvic.h</in>
+                      <in>ite-intc.h</in>
+                      <in>mchp-xec-ecia.h</in>
+                      <in>openisa-intmux.h</in>
+                    </df>
+                    <df name="led">
+                      <in>led.h</in>
+                    </df>
+                    <df name="lora">
+                      <in>sx126x.h</in>
+                    </df>
+                    <df name="memory-controller">
+                      <in>stm32-fmc-sdram.h</in>
+                    </df>
+                    <df name="pcie">
+                      <in>pcie.h</in>
+                    </df>
+                    <df name="pinctrl">
+                      <in>b91-pinctrl.h</in>
+                      <in>it8xxx2-pinctrl.h</in>
+                      <in>lpc11u6x-pinctrl.h</in>
+                      <in>npcx-pinctrl.h</in>
+                      <in>stm32-pinctrl-common.h</in>
+                      <in>stm32-pinctrl.h</in>
+                      <in>stm32f1-pinctrl.h</in>
+                    </df>
+                    <df name="pwm">
+                      <in>it8xxx2_pwm.h</in>
+                      <in>pwm.h</in>
+                    </df>
+                    <df name="rdc">
+                      <in>imx_rdc.h</in>
+                    </df>
+                    <df name="sensor">
+                      <in>npcx_tach.h</in>
+                    </df>
+                    <df name="usb">
+                      <in>usb.h</in>
+                    </df>
+                    <in>dt-util.h</in>
+                  </df>
+                  <df name="fs">
+                    <in>fcb.h</in>
+                    <in>fs.h</in>
+                    <in>fs_interface.h</in>
+                    <in>fs_sys.h</in>
+                    <in>littlefs.h</in>
+                    <in>nvs.h</in>
+                  </df>
+                  <df name="ipc">
+                    <in>ipc_service.h</in>
+                    <in>ipc_service_backend.h</in>
+                    <in>rpmsg_multi_instance.h</in>
+                    <in>rpmsg_service.h</in>
+                  </df>
+                  <df name="kernel">
+                    <in>mempool_heap.h</in>
+                    <in>sched_priq.h</in>
+                    <in>thread.h</in>
+                    <in>thread_stack.h</in>
+                  </df>
+                  <df name="linker">
+                    <in>devicetree_regions.h</in>
+                    <in>devicetree_reserved.h</in>
+                    <in>linker-defs.h</in>
+                    <in>linker-tool-gcc.h</in>
+                    <in>linker-tool-mwdt.h</in>
+                    <in>linker-tool.h</in>
+                    <in>section_tags.h</in>
+                    <in>sections.h</in>
+                  </df>
+                  <df name="logging">
+                    <in>log.h</in>
+                    <in>log_backend.h</in>
+                    <in>log_backend_std.h</in>
+                    <in>log_core.h</in>
+                    <in>log_core2.h</in>
+                    <in>log_ctrl.h</in>
+                    <in>log_frontend.h</in>
+                    <in>log_instance.h</in>
+                    <in>log_msg.h</in>
+                    <in>log_msg2.h</in>
+                    <in>log_output.h</in>
+                    <in>log_output_dict.h</in>
+                  </df>
+                  <df name="lorawan">
+                    <in>lorawan.h</in>
+                  </df>
+                  <df name="mgmt">
+                    <df name="mcumgr">
+                      <in>buf.h</in>
+                      <in>serial.h</in>
+                      <in>smp.h</in>
+                      <in>smp_bt.h</in>
+                      <in>smp_shell.h</in>
+                      <in>smp_udp.h</in>
+                      <in>zephyr_groups.h</in>
+                    </df>
+                    <in>ec_host_cmd.h</in>
+                    <in>hawkbit.h</in>
+                    <in>osdp.h</in>
+                  </df>
+                  <df name="modbus">
+                    <in>modbus.h</in>
+                  </df>
+                  <df name="net">
+                    <in>bt.h</in>
+                    <in>buf.h</in>
+                    <in>can.h</in>
+                    <in>capture.h</in>
+                    <in>coap.h</in>
+                    <in>coap_link_format.h</in>
+                    <in>dhcpv4.h</in>
+                    <in>dns_resolve.h</in>
+                    <in>dns_sd.h</in>
+                    <in>dsa.h</in>
+                    <in>dummy.h</in>
+                    <in>ethernet.h</in>
+                    <in>ethernet_bridge.h</in>
+                    <in>ethernet_mgmt.h</in>
+                    <in>ethernet_vlan.h</in>
+                    <in>gptp.h</in>
+                    <in>hostname.h</in>
+                    <in>http_client.h</in>
+                    <in>http_parser.h</in>
+                    <in>http_parser_state.h</in>
+                    <in>http_parser_url.h</in>
+                    <in>ieee802154.h</in>
+                    <in>ieee802154_mgmt.h</in>
+                    <in>ieee802154_radio.h</in>
+                    <in>igmp.h</in>
+                    <in>ipv4_autoconf.h</in>
+                    <in>lldp.h</in>
+                    <in>lwm2m.h</in>
+                    <in>lwm2m_path.h</in>
+                    <in>mii.h</in>
+                    <in>mqtt.h</in>
+                    <in>net_config.h</in>
+                    <in>net_conn_mgr.h</in>
+                    <in>net_context.h</in>
+                    <in>net_core.h</in>
+                    <in>net_event.h</in>
+                    <in>net_if.h</in>
+                    <in>net_ip.h</in>
+                    <in>net_l2.h</in>
+                    <in>net_linkaddr.h</in>
+                    <in>net_mgmt.h</in>
+                    <in>net_offload.h</in>
+                    <in>net_pkt.h</in>
+                    <in>net_stats.h</in>
+                    <in>net_timeout.h</in>
+                    <in>openthread.h</in>
+                    <in>ppp.h</in>
+                    <in>promiscuous.h</in>
+                    <in>ptp_time.h</in>
+                    <in>sntp.h</in>
+                    <in>socket.h</in>
+                    <in>socket_can.h</in>
+                    <in>socket_net_mgmt.h</in>
+                    <in>socket_offload.h</in>
+                    <in>socket_select.h</in>
+                    <in>socket_types.h</in>
+                    <in>socketutils.h</in>
+                    <in>tftp.h</in>
+                    <in>tls_credentials.h</in>
+                    <in>trickle.h</in>
+                    <in>udp.h</in>
+                    <in>virtual.h</in>
+                    <in>virtual_mgmt.h</in>
+                    <in>websocket.h</in>
+                    <in>wifi.h</in>
+                    <in>wifi_mgmt.h</in>
+                  </df>
+                  <df name="pm">
+                    <in>device.h</in>
+                    <in>device_runtime.h</in>
+                    <in>pm.h</in>
+                    <in>policy.h</in>
+                    <in>state.h</in>
+                  </df>
+                  <df name="portability">
+                    <in>cmsis_os.h</in>
+                    <in>cmsis_os2.h</in>
+                  </df>
+                  <df name="posix">
+                    <df name="arpa">
+                      <in>inet.h</in>
+                    </df>
+                    <df name="net">
+                      <in>if.h</in>
+                    </df>
+                    <df name="netinet">
+                      <in>in.h</in>
+                      <in>tcp.h</in>
+                    </df>
+                    <df name="sys">
+                      <in>eventfd.h</in>
+                      <in>ioctl.h</in>
+                      <in>select.h</in>
+                      <in>socket.h</in>
+                      <in>time.h</in>
+                    </df>
+                    <in>dirent.h</in>
+                    <in>mqueue.h</in>
+                    <in>netdb.h</in>
+                    <in>poll.h</in>
+                    <in>posix_sched.h</in>
+                    <in>posix_types.h</in>
+                    <in>pthread.h</in>
+                    <in>pthread_key.h</in>
+                    <in>semaphore.h</in>
+                    <in>signal.h</in>
+                    <in>time.h</in>
+                    <in>unistd.h</in>
+                  </df>
+                  <df name="power">
+                    <in>power.h</in>
+                    <in>reboot.h</in>
+                  </df>
+                  <df name="random">
+                    <in>rand32.h</in>
+                  </df>
+                  <df name="settings">
+                    <in>settings.h</in>
+                  </df>
+                  <df name="shell">
+                    <in>shell.h</in>
+                    <in>shell_dummy.h</in>
+                    <in>shell_fprintf.h</in>
+                    <in>shell_getopt.h</in>
+                    <in>shell_history.h</in>
+                    <in>shell_log_backend.h</in>
+                    <in>shell_rtt.h</in>
+                    <in>shell_telnet.h</in>
+                    <in>shell_types.h</in>
+                    <in>shell_uart.h</in>
+                  </df>
+                  <df name="stats">
+                    <in>stats.h</in>
+                  </df>
+                  <df name="storage">
+                    <in>disk_access.h</in>
+                    <in>flash_map.h</in>
+                    <in>stream_flash.h</in>
+                  </df>
+                  <df name="sys">
+                    <in>__assert.h</in>
+                    <in>arch_interface.h</in>
+                    <in>atomic.h</in>
+                    <in>atomic_arch.h</in>
+                    <in>atomic_builtin.h</in>
+                    <in>atomic_c.h</in>
+                    <in>base64.h</in>
+                    <in>bitarray.h</in>
+                    <in>byteorder.h</in>
+                    <in>cbprintf.h</in>
+                    <in>cbprintf_cxx.h</in>
+                    <in>cbprintf_internal.h</in>
+                    <in>check.h</in>
+                    <in>crc.h</in>
+                    <in>device_mmio.h</in>
+                    <in>dlist.h</in>
+                    <in>errno_private.h</in>
+                    <in>fdtable.h</in>
+                    <in>kobject.h</in>
+                    <in>libc-hooks.h</in>
+                    <in>list_gen.h</in>
+                    <in>math_extras.h</in>
+                    <in>math_extras_impl.h</in>
+                    <in>mem_manage.h</in>
+                    <in>mempool.h</in>
+                    <in>mempool_base.h</in>
+                    <in>mpsc_packet.h</in>
+                    <in>mpsc_pbuf.h</in>
+                    <in>mutex.h</in>
+                    <in>notify.h</in>
+                    <in>onoff.h</in>
+                    <in>p4wq.h</in>
+                    <in>printk.h</in>
+                    <in>rb.h</in>
+                    <in>reboot.h</in>
+                    <in>ring_buffer.h</in>
+                    <in>sem.h</in>
+                    <in>sflist.h</in>
+                    <in>slist.h</in>
+                    <in>speculation.h</in>
+                    <in>sys_heap.h</in>
+                    <in>sys_io.h</in>
+                    <in>thread_stack.h</in>
+                    <in>time_units.h</in>
+                    <in>timeutil.h</in>
+                    <in>util.h</in>
+                    <in>util_internal.h</in>
+                    <in>util_loops.h</in>
+                    <in>util_macro.h</in>
+                  </df>
+                  <df name="task_wdt">
+                    <in>task_wdt.h</in>
+                  </df>
+                  <df name="timing">
+                    <in>timing.h</in>
+                    <in>types.h</in>
+                  </df>
+                  <df name="toolchain">
+                    <in>common.h</in>
+                    <in>gcc.h</in>
+                    <in>llvm.h</in>
+                    <in>mwdt.h</in>
+                    <in>xcc.h</in>
+                    <in>xcc_missing_defs.h</in>
+                    <in>zephyr_stdint.h</in>
+                  </df>
+                  <df name="tracing">
+                    <in>tracing.h</in>
+                    <in>tracing_format.h</in>
+                    <in>tracing_macros.h</in>
+                  </df>
+                  <df name="usb">
+                    <df name="class">
+                      <in>hid.h</in>
+                      <in>usb_audio.h</in>
+                      <in>usb_cdc.h</in>
+                      <in>usb_dfu.h</in>
+                      <in>usb_hid.h</in>
+                      <in>usb_msc.h</in>
+                    </df>
+                    <in>bos.h</in>
+                    <in>usb_common.h</in>
+                    <in>usb_device.h</in>
+                    <in>usbstruct.h</in>
+                  </df>
+                  <df name="zephyr">
+                    <in>types.h</in>
+                  </df>
+                  <in>cache.h</in>
+                  <in>device.h</in>
+                  <in>devicetree.h</in>
+                  <in>ec_host_cmd.h</in>
+                  <in>emul.h</in>
+                  <in>exc_handle.h</in>
+                  <in>fatal.h</in>
+                  <in>generated_dts_board.h</in>
+                  <in>init.h</in>
+                  <in>irq.h</in>
+                  <in>irq_nextlevel.h</in>
+                  <in>irq_offload.h</in>
+                  <in>kernel.h</in>
+                  <in>kernel_includes.h</in>
+                  <in>kernel_structs.h</in>
+                  <in>kernel_version.h</in>
+                  <in>mempool_heap.h</in>
+                  <in>mempool_sys.h</in>
+                  <in>ptp_clock.h</in>
+                  <in>sched_priq.h</in>
+                  <in>shared_irq.h</in>
+                  <in>spinlock.h</in>
+                  <in>sw_isr_table.h</in>
+                  <in>sys_clock.h</in>
+                  <in>syscall.h</in>
+                  <in>syscall_handler.h</in>
+                  <in>timeout_q.h</in>
+                  <in>toolchain.h</in>
+                  <in>wait_q.h</in>
+                  <in>zephyr.h</in>
+                </df>
+                <df name="include_app_memory">
+                  <in>app_memdomain.h</in>
+                  <in>mem_domain.h</in>
+                  <in>partitions.h</in>
+                </df>
+                <df name="include_arch">
+                  <df name="arc">
+                    <df name="asm-compat">
+                      <in>asm-macro-32-bit-gnu.h</in>
+                      <in>asm-macro-32-bit-mwdt.h</in>
+                      <in>asm-macro-64-bit-gnu.h</in>
+                      <in>assembler.h</in>
+                    </df>
+                    <df name="v2">
+                      <df name="mpu">
+                        <in>arc_core_mpu.h</in>
+                        <in>arc_mpu.h</in>
+                      </df>
+                      <df name="secureshield">
+                        <in>arc_secure.h</in>
+                      </df>
+                      <in>arc_connect.h</in>
+                      <in>arcv2_irq_unit.h</in>
+                      <in>asm_inline.h</in>
+                      <in>asm_inline_gcc.h</in>
+                      <in>aux_regs.h</in>
+                      <in>error.h</in>
+                      <in>exc.h</in>
+                      <in>irq.h</in>
+                      <in>misc.h</in>
+                      <in>sys_io.h</in>
+                    </df>
+                    <in>arch.h</in>
+                    <in>arch_inlines.h</in>
+                    <in>sys-io-common.h</in>
+                    <in>syscall.h</in>
+                    <in>thread.h</in>
+                    <in>tool-compat.h</in>
+                  </df>
+                  <df name="arm">
+                    <df name="aarch32">
+                      <df name="cortex_a_r">
+                        <df name="scripts">
+                        </df>
+                        <in>cmsis.h</in>
+                        <in>cmsis_ext.h</in>
+                        <in>cpu.h</in>
+                        <in>sys_io.h</in>
+                        <in>timer.h</in>
+                      </df>
+                      <df name="cortex_m">
+                        <df name="mpu">
+                          <in>arm_mpu.h</in>
+                          <in>arm_mpu_v7m.h</in>
+                          <in>arm_mpu_v8m.h</in>
+                          <in>nxp_mpu.h</in>
+                        </df>
+                        <df name="scripts">
+                        </df>
+                        <in>cmsis.h</in>
+                        <in>cpu.h</in>
+                        <in>fpu.h</in>
+                        <in>memory_map.h</in>
+                        <in>nvic.h</in>
+                      </df>
+                      <df name="cortex_r">
+                        <df name="scripts">
+                        </df>
+                        <in>cmsis.h</in>
+                        <in>cpu.h</in>
+                        <in>sys_io.h</in>
+                      </df>
+                      <df name="mpu">
+                        <in>arm_mpu.h</in>
+                        <in>arm_mpu_v7m.h</in>
+                        <in>arm_mpu_v8m.h</in>
+                        <in>nxp_mpu.h</in>
+                      </df>
+                      <in>arch.h</in>
+                      <in>asm_inline.h</in>
+                      <in>asm_inline_gcc.h</in>
+                      <in>error.h</in>
+                      <in>exc.h</in>
+                      <in>irq.h</in>
+                      <in>misc.h</in>
+                      <in>nmi.h</in>
+                      <in>syscall.h</in>
+                      <in>thread.h</in>
+                    </df>
+                    <df name="aarch64">
+                      <df name="scripts">
+                      </df>
+                      <in>arch.h</in>
+                      <in>arm_mmu.h</in>
+                      <in>asm_inline.h</in>
+                      <in>asm_inline_gcc.h</in>
+                      <in>cpu.h</in>
+                      <in>exc.h</in>
+                      <in>irq.h</in>
+                      <in>misc.h</in>
+                      <in>sys_io.h</in>
+                      <in>syscall.h</in>
+                      <in>thread.h</in>
+                      <in>timer.h</in>
+                    </df>
+                  </df>
+                  <df name="arm64">
+                    <df name="cortex_r">
+                      <df name="mpu">
+                        <in>arm_mpu.h</in>
+                      </df>
+                    </df>
+                    <in>arch.h</in>
+                    <in>arch_inlines.h</in>
+                    <in>arm-smccc.h</in>
+                    <in>arm_mmu.h</in>
+                    <in>asm_inline.h</in>
+                    <in>asm_inline_gcc.h</in>
+                    <in>cpu.h</in>
+                    <in>error.h</in>
+                    <in>exc.h</in>
+                    <in>irq.h</in>
+                    <in>lib_helpers.h</in>
+                    <in>misc.h</in>
+                    <in>structs.h</in>
+                    <in>sys_io.h</in>
+                    <in>syscall.h</in>
+                    <in>thread.h</in>
+                    <in>thread_stack.h</in>
+                    <in>timer.h</in>
+                    <in>tpidrro_el0.h</in>
+                  </df>
+                  <df name="common">
+                    <in>addr_types.h</in>
+                    <in>ffs.h</in>
+                    <in>sys_bitops.h</in>
+                    <in>sys_io.h</in>
+                  </df>
+                  <df name="nios2">
+                    <in>arch.h</in>
+                    <in>asm_inline.h</in>
+                    <in>asm_inline_gcc.h</in>
+                    <in>nios2.h</in>
+                    <in>thread.h</in>
+                  </df>
+                  <df name="posix">
+                    <in>arch.h</in>
+                    <in>asm_inline.h</in>
+                    <in>asm_inline_gcc.h</in>
+                    <in>posix_soc_if.h</in>
+                    <in>posix_trace.h</in>
+                    <in>thread.h</in>
+                  </df>
+                  <df name="riscv">
+                    <df name="common">
+                    </df>
+                    <df name="riscv-privilege">
+                      <in>asm_inline.h</in>
+                      <in>asm_inline_gcc.h</in>
+                    </df>
+                    <in>arch.h</in>
+                    <in>csr.h</in>
+                    <in>error.h</in>
+                    <in>exp.h</in>
+                    <in>syscall.h</in>
+                    <in>thread.h</in>
+                  </df>
+                  <df name="sparc">
+                    <in>arch.h</in>
+                    <in>sparc.h</in>
+                    <in>thread.h</in>
+                  </df>
+                  <df name="x86">
+                    <df name="ia32">
+                      <in>arch.h</in>
+                      <in>asm.h</in>
+                      <in>gdbstub.h</in>
+                      <in>segmentation.h</in>
+                      <in>sys_io.h</in>
+                      <in>syscall.h</in>
+                      <in>thread.h</in>
+                    </df>
+                    <df name="intel64">
+                      <in>arch.h</in>
+                      <in>syscall.h</in>
+                      <in>thread.h</in>
+                    </df>
+                    <in>acpi.h</in>
+                    <in>arch.h</in>
+                    <in>arch_inlines.h</in>
+                    <in>intel_vtd.h</in>
+                    <in>memmap.h</in>
+                    <in>mmustructs.h</in>
+                    <in>msr.h</in>
+                    <in>multiboot.h</in>
+                    <in>thread_stack.h</in>
+                  </df>
+                  <df name="xtensa">
+                    <in>arch.h</in>
+                    <in>arch_inlines.h</in>
+                    <in>atomic_xtensa.h</in>
+                    <in>cache.h</in>
+                    <in>exc.h</in>
+                    <in>irq.h</in>
+                    <in>thread.h</in>
+                    <in>xtensa_api.h</in>
+                    <in>xtensa_config.h</in>
+                    <in>xtensa_context.h</in>
+                    <in>xtensa_rtos.h</in>
+                    <in>xtensa_timer.h</in>
+                  </df>
+                  <in>arch_inlines.h</in>
+                  <in>cpu.h</in>
+                  <in>structs.h</in>
+                  <in>syscall.h</in>
+                </df>
+                <df name="include_arch_arc">
+                  <df name="asm-compat">
+                    <in>asm-macro-32-bit-gnu.h</in>
+                    <in>asm-macro-32-bit-mwdt.h</in>
+                    <in>asm-macro-64-bit-gnu.h</in>
+                    <in>assembler.h</in>
+                  </df>
+                  <df name="v2">
+                    <df name="mpu">
+                      <in>arc_core_mpu.h</in>
+                      <in>arc_mpu.h</in>
+                    </df>
+                    <df name="secureshield">
+                      <in>arc_secure.h</in>
+                    </df>
+                    <in>arc_connect.h</in>
+                    <in>arcv2_irq_unit.h</in>
+                    <in>asm_inline.h</in>
+                    <in>asm_inline_gcc.h</in>
+                    <in>aux_regs.h</in>
+                    <in>error.h</in>
+                    <in>exc.h</in>
+                    <in>irq.h</in>
+                    <in>misc.h</in>
+                    <in>sys_io.h</in>
+                  </df>
+                  <in>arch.h</in>
+                  <in>arch_inlines.h</in>
+                  <in>sys-io-common.h</in>
+                  <in>syscall.h</in>
+                  <in>thread.h</in>
+                  <in>tool-compat.h</in>
+                </df>
+                <df name="include_arch_arc_asm-compat">
+                  <in>asm-macro-32-bit-gnu.h</in>
+                  <in>asm-macro-32-bit-mwdt.h</in>
+                  <in>asm-macro-64-bit-gnu.h</in>
+                  <in>assembler.h</in>
+                </df>
+                <df name="include_arch_arc_v2">
+                  <df name="mpu">
+                    <in>arc_core_mpu.h</in>
+                    <in>arc_mpu.h</in>
+                  </df>
+                  <df name="secureshield">
+                    <in>arc_secure.h</in>
+                  </df>
+                  <in>arc_connect.h</in>
+                  <in>arcv2_irq_unit.h</in>
+                  <in>asm_inline.h</in>
+                  <in>asm_inline_gcc.h</in>
+                  <in>aux_regs.h</in>
+                  <in>error.h</in>
+                  <in>exc.h</in>
+                  <in>irq.h</in>
+                  <in>misc.h</in>
+                  <in>sys_io.h</in>
+                </df>
+                <df name="include_arch_arc_v2_mpu">
+                  <in>arc_core_mpu.h</in>
+                  <in>arc_mpu.h</in>
+                </df>
+                <df name="include_arch_arc_v2_secureshield">
+                  <in>arc_secure.h</in>
+                </df>
+                <df name="include_arch_arm">
+                  <df name="aarch32">
+                    <df name="cortex_a_r">
+                      <df name="scripts">
+                      </df>
+                      <in>cmsis.h</in>
+                      <in>cmsis_ext.h</in>
+                      <in>cpu.h</in>
+                      <in>sys_io.h</in>
+                      <in>timer.h</in>
+                    </df>
+                    <df name="cortex_m">
+                      <df name="mpu">
+                        <in>arm_mpu.h</in>
+                        <in>arm_mpu_v7m.h</in>
+                        <in>arm_mpu_v8m.h</in>
+                        <in>nxp_mpu.h</in>
+                      </df>
+                      <df name="scripts">
+                      </df>
+                      <in>cmsis.h</in>
+                      <in>cpu.h</in>
+                      <in>fpu.h</in>
+                      <in>memory_map.h</in>
+                      <in>nvic.h</in>
+                    </df>
+                    <df name="cortex_r">
+                      <df name="scripts">
+                      </df>
+                      <in>cmsis.h</in>
+                      <in>cpu.h</in>
+                      <in>sys_io.h</in>
+                    </df>
+                    <df name="mpu">
+                      <in>arm_mpu.h</in>
+                      <in>arm_mpu_v7m.h</in>
+                      <in>arm_mpu_v8m.h</in>
+                      <in>nxp_mpu.h</in>
+                    </df>
+                    <in>arch.h</in>
+                    <in>asm_inline.h</in>
+                    <in>asm_inline_gcc.h</in>
+                    <in>error.h</in>
+                    <in>exc.h</in>
+                    <in>irq.h</in>
+                    <in>misc.h</in>
+                    <in>nmi.h</in>
+                    <in>syscall.h</in>
+                    <in>thread.h</in>
+                  </df>
+                  <df name="aarch64">
+                    <df name="scripts">
+                    </df>
+                    <in>arch.h</in>
+                    <in>arm_mmu.h</in>
+                    <in>asm_inline.h</in>
+                    <in>asm_inline_gcc.h</in>
+                    <in>cpu.h</in>
+                    <in>exc.h</in>
+                    <in>irq.h</in>
+                    <in>misc.h</in>
+                    <in>sys_io.h</in>
+                    <in>syscall.h</in>
+                    <in>thread.h</in>
+                    <in>timer.h</in>
+                  </df>
+                </df>
+                <df name="include_arch_arm64">
+                  <df name="cortex_r">
+                    <df name="mpu">
+                      <in>arm_mpu.h</in>
+                    </df>
+                  </df>
+                  <in>arch.h</in>
+                  <in>arch_inlines.h</in>
+                  <in>arm-smccc.h</in>
+                  <in>arm_mmu.h</in>
+                  <in>asm_inline.h</in>
+                  <in>asm_inline_gcc.h</in>
+                  <in>cpu.h</in>
+                  <in>error.h</in>
+                  <in>exc.h</in>
+                  <in>irq.h</in>
+                  <in>lib_helpers.h</in>
+                  <in>misc.h</in>
+                  <in>structs.h</in>
+                  <in>sys_io.h</in>
+                  <in>syscall.h</in>
+                  <in>thread.h</in>
+                  <in>thread_stack.h</in>
+                  <in>timer.h</in>
+                  <in>tpidrro_el0.h</in>
+                </df>
+                <df name="include_arch_arm64_cortex_r">
+                  <df name="mpu">
+                    <in>arm_mpu.h</in>
+                  </df>
+                </df>
+                <df name="include_arch_arm64_cortex_r_mpu">
+                  <in>arm_mpu.h</in>
+                </df>
+                <df name="include_arch_arm_aarch32">
+                  <df name="cortex_a_r">
+                    <df name="scripts">
+                    </df>
+                    <in>cmsis.h</in>
+                    <in>cmsis_ext.h</in>
+                    <in>cpu.h</in>
+                    <in>sys_io.h</in>
+                    <in>timer.h</in>
+                  </df>
+                  <df name="cortex_m">
+                    <df name="mpu">
+                      <in>arm_mpu.h</in>
+                      <in>arm_mpu_v7m.h</in>
+                      <in>arm_mpu_v8m.h</in>
+                      <in>nxp_mpu.h</in>
+                    </df>
+                    <df name="scripts">
+                    </df>
+                    <in>cmsis.h</in>
+                    <in>cpu.h</in>
+                    <in>fpu.h</in>
+                    <in>memory_map.h</in>
+                    <in>nvic.h</in>
+                  </df>
+                  <df name="cortex_r">
+                    <df name="scripts">
+                    </df>
+                    <in>cmsis.h</in>
+                    <in>cpu.h</in>
+                    <in>sys_io.h</in>
+                  </df>
+                  <df name="mpu">
+                    <in>arm_mpu.h</in>
+                    <in>arm_mpu_v7m.h</in>
+                    <in>arm_mpu_v8m.h</in>
+                    <in>nxp_mpu.h</in>
+                  </df>
+                  <in>arch.h</in>
+                  <in>asm_inline.h</in>
+                  <in>asm_inline_gcc.h</in>
+                  <in>error.h</in>
+                  <in>exc.h</in>
+                  <in>irq.h</in>
+                  <in>misc.h</in>
+                  <in>nmi.h</in>
+                  <in>syscall.h</in>
+                  <in>thread.h</in>
+                </df>
+                <df name="include_arch_arm_aarch32_cortex_a_r">
+                  <df name="scripts">
+                  </df>
+                  <in>cmsis.h</in>
+                  <in>cmsis_ext.h</in>
+                  <in>cpu.h</in>
+                  <in>sys_io.h</in>
+                  <in>timer.h</in>
+                </df>
+                <df name="include_arch_arm_aarch32_cortex_a_r_scripts">
+                </df>
+                <df name="include_arch_arm_aarch32_cortex_m">
+                  <df name="mpu">
+                    <in>arm_mpu.h</in>
+                    <in>arm_mpu_v7m.h</in>
+                    <in>arm_mpu_v8m.h</in>
+                    <in>nxp_mpu.h</in>
+                  </df>
+                  <df name="scripts">
+                  </df>
+                  <in>cmsis.h</in>
+                  <in>cpu.h</in>
+                  <in>fpu.h</in>
+                  <in>memory_map.h</in>
+                  <in>nvic.h</in>
+                </df>
+                <df name="include_arch_arm_aarch32_cortex_m_mpu">
+                  <in>arm_mpu.h</in>
+                  <in>arm_mpu_v7m.h</in>
+                  <in>arm_mpu_v8m.h</in>
+                  <in>nxp_mpu.h</in>
+                </df>
+                <df name="include_arch_arm_aarch32_cortex_m_scripts">
+                </df>
+                <df name="include_arch_arm_aarch32_cortex_r">
+                  <df name="scripts">
+                  </df>
+                  <in>cmsis.h</in>
+                  <in>cpu.h</in>
+                  <in>sys_io.h</in>
+                </df>
+                <df name="include_arch_arm_aarch32_cortex_r_scripts">
+                </df>
+                <df name="include_arch_arm_aarch32_mpu">
+                  <in>arm_mpu.h</in>
+                  <in>arm_mpu_v7m.h</in>
+                  <in>arm_mpu_v8m.h</in>
+                  <in>nxp_mpu.h</in>
+                </df>
+                <df name="include_arch_common">
+                  <in>addr_types.h</in>
+                  <in>ffs.h</in>
+                  <in>sys_bitops.h</in>
+                  <in>sys_io.h</in>
+                </df>
+                <df name="include_arch_nios2">
+                  <in>arch.h</in>
+                  <in>asm_inline.h</in>
+                  <in>asm_inline_gcc.h</in>
+                  <in>nios2.h</in>
+                  <in>thread.h</in>
+                </df>
+                <df name="include_arch_posix">
+                  <in>arch.h</in>
+                  <in>asm_inline.h</in>
+                  <in>asm_inline_gcc.h</in>
+                  <in>posix_soc_if.h</in>
+                  <in>posix_trace.h</in>
+                  <in>thread.h</in>
+                </df>
+                <df name="include_arch_riscv">
+                  <df name="common">
+                  </df>
+                  <df name="riscv-privilege">
+                    <in>asm_inline.h</in>
+                    <in>asm_inline_gcc.h</in>
+                  </df>
+                  <in>arch.h</in>
+                  <in>csr.h</in>
+                  <in>error.h</in>
+                  <in>exp.h</in>
+                  <in>syscall.h</in>
+                  <in>thread.h</in>
+                </df>
+                <df name="include_arch_riscv_common">
+                </df>
+                <df name="include_arch_riscv_riscv-privilege">
+                  <in>asm_inline.h</in>
+                  <in>asm_inline_gcc.h</in>
+                </df>
+                <df name="include_arch_sparc">
+                  <in>arch.h</in>
+                  <in>sparc.h</in>
+                  <in>thread.h</in>
+                </df>
+                <df name="include_arch_x86">
+                  <df name="ia32">
+                    <in>arch.h</in>
+                    <in>asm.h</in>
+                    <in>gdbstub.h</in>
+                    <in>segmentation.h</in>
+                    <in>sys_io.h</in>
+                    <in>syscall.h</in>
+                    <in>thread.h</in>
+                  </df>
+                  <df name="intel64">
+                    <in>arch.h</in>
+                    <in>syscall.h</in>
+                    <in>thread.h</in>
+                  </df>
+                  <in>acpi.h</in>
+                  <in>arch.h</in>
+                  <in>arch_inlines.h</in>
+                  <in>intel_vtd.h</in>
+                  <in>memmap.h</in>
+                  <in>mmustructs.h</in>
+                  <in>msr.h</in>
+                  <in>multiboot.h</in>
+                  <in>thread_stack.h</in>
+                </df>
+                <df name="include_arch_x86_ia32">
+                  <in>arch.h</in>
+                  <in>asm.h</in>
+                  <in>gdbstub.h</in>
+                  <in>segmentation.h</in>
+                  <in>sys_io.h</in>
+                  <in>syscall.h</in>
+                  <in>thread.h</in>
+                </df>
+                <df name="include_arch_x86_intel64">
+                  <in>arch.h</in>
+                  <in>syscall.h</in>
+                  <in>thread.h</in>
+                </df>
+                <df name="include_arch_xtensa">
+                  <in>arch.h</in>
+                  <in>arch_inlines.h</in>
+                  <in>atomic_xtensa.h</in>
+                  <in>cache.h</in>
+                  <in>exc.h</in>
+                  <in>irq.h</in>
+                  <in>thread.h</in>
+                  <in>xtensa_api.h</in>
+                  <in>xtensa_config.h</in>
+                  <in>xtensa_context.h</in>
+                  <in>xtensa_rtos.h</in>
+                  <in>xtensa_timer.h</in>
+                </df>
+                <df name="include_audio">
+                  <in>codec.h</in>
+                  <in>dmic.h</in>
+                </df>
+                <df name="include_bluetooth">
+                  <df name="audio">
+                    <in>aics.h</in>
+                    <in>audio.h</in>
+                    <in>mics.h</in>
+                    <in>vcs.h</in>
+                    <in>vocs.h</in>
+                  </df>
+                  <df name="mesh">
+                    <in>access.h</in>
+                    <in>cdb.h</in>
+                    <in>cfg.h</in>
+                    <in>cfg_cli.h</in>
+                    <in>cfg_srv.h</in>
+                    <in>health_cli.h</in>
+                    <in>health_faults.h</in>
+                    <in>health_srv.h</in>
+                    <in>heartbeat.h</in>
+                    <in>main.h</in>
+                    <in>msg.h</in>
+                    <in>proxy.h</in>
+                  </df>
+                  <df name="services">
+                    <in>bas.h</in>
+                    <in>dis.h</in>
+                    <in>hrs.h</in>
+                    <in>ots.h</in>
+                  </df>
+                  <in>a2dp-codec.h</in>
+                  <in>a2dp.h</in>
+                  <in>addr.h</in>
+                  <in>att.h</in>
+                  <in>avdtp.h</in>
+                  <in>bluetooth.h</in>
+                  <in>buf.h</in>
+                  <in>conn.h</in>
+                  <in>controller.h</in>
+                  <in>crypto.h</in>
+                  <in>direction.h</in>
+                  <in>gap.h</in>
+                  <in>gatt.h</in>
+                  <in>hci.h</in>
+                  <in>hci_err.h</in>
+                  <in>hci_raw.h</in>
+                  <in>hci_vs.h</in>
+                  <in>hfp_hf.h</in>
+                  <in>iso.h</in>
+                  <in>l2cap.h</in>
+                  <in>mesh.h</in>
+                  <in>rfcomm.h</in>
+                  <in>sdp.h</in>
+                  <in>testing.h</in>
+                  <in>uuid.h</in>
+                </df>
+                <df name="include_bluetooth_audio">
+                  <in>aics.h</in>
+                  <in>audio.h</in>
+                  <in>mics.h</in>
+                  <in>vcs.h</in>
+                  <in>vocs.h</in>
+                </df>
+                <df name="include_bluetooth_mesh">
+                  <in>access.h</in>
+                  <in>cdb.h</in>
+                  <in>cfg.h</in>
+                  <in>cfg_cli.h</in>
+                  <in>cfg_srv.h</in>
+                  <in>health_cli.h</in>
+                  <in>health_faults.h</in>
+                  <in>health_srv.h</in>
+                  <in>heartbeat.h</in>
+                  <in>main.h</in>
+                  <in>msg.h</in>
+                  <in>proxy.h</in>
+                </df>
+                <df name="include_bluetooth_services">
+                  <in>bas.h</in>
+                  <in>dis.h</in>
+                  <in>hrs.h</in>
+                  <in>ots.h</in>
+                </df>
+                <df name="include_canbus">
+                  <in>canopen.h</in>
+                  <in>isotp.h</in>
+                </df>
+                <df name="include_console">
+                  <in>console.h</in>
+                  <in>tty.h</in>
+                </df>
+                <df name="include_crypto">
+                  <in>cipher.h</in>
+                  <in>cipher_structs.h</in>
+                </df>
+                <df name="include_data">
+                  <in>json.h</in>
+                  <in>jwt.h</in>
+                </df>
+                <df name="include_debug">
+                  <in>coredump.h</in>
+                  <in>gcov.h</in>
+                  <in>gdbstub.h</in>
+                  <in>object_tracing.h</in>
+                  <in>object_tracing_common.h</in>
+                  <in>stack.h</in>
+                  <in>thread_analyzer.h</in>
+                  <in>tracing.h</in>
+                </df>
+                <df name="include_devicetree">
+                  <in>clocks.h</in>
+                  <in>dma.h</in>
+                  <in>fixed-partitions.h</in>
+                  <in>gpio.h</in>
+                  <in>io-channels.h</in>
+                  <in>memory.h</in>
+                  <in>ordinals.h</in>
+                  <in>pwms.h</in>
+                  <in>spi.h</in>
+                  <in>zephyr.h</in>
+                </df>
+                <df name="include_dfu">
+                  <in>flash_img.h</in>
+                  <in>mcuboot.h</in>
+                </df>
+                <df name="include_disk">
+                  <in>disk_access.h</in>
+                </df>
+                <df name="include_display">
+                  <in>cfb.h</in>
+                  <in>framebuf.h</in>
+                  <in>grove_lcd.h</in>
+                  <in>mb_display.h</in>
+                </df>
+                <df name="include_drivers">
+                  <df name="adc">
+                    <in>adc_emul.h</in>
+                    <in>lmp90xxx.h</in>
+                  </df>
+                  <df name="bluetooth">
+                    <in>hci_driver.h</in>
+                  </df>
+                  <df name="clock_control">
+                    <in>arm_clock_control.h</in>
+                    <in>clock_control_litex.h</in>
+                    <in>lpc11u6x_clock_control.h</in>
+                    <in>mchp_xec_clock_control.h</in>
+                    <in>nrf_clock_control.h</in>
+                    <in>rcar_clock_control.h</in>
+                    <in>stm32_clock_control.h</in>
+                  </df>
+                  <df name="console">
+                    <in>console.h</in>
+                    <in>ipm_console.h</in>
+                    <in>native_posix_console.h</in>
+                    <in>uart_console.h</in>
+                    <in>uart_mcumgr.h</in>
+                    <in>uart_mux.h</in>
+                    <in>uart_pipe.h</in>
+                  </df>
+                  <df name="dma">
+                    <in>dma_stm32.h</in>
+                  </df>
+                  <df name="ec_host_cmd_periph">
+                    <in>ec_host_cmd_simulator.h</in>
+                  </df>
+                  <df name="gpio">
+                    <in>gpio_emul.h</in>
+                    <in>gpio_esp32.h</in>
+                    <in>gpio_mmio32.h</in>
+                    <in>gpio_sx1509b.h</in>
+                  </df>
+                  <df name="i2c">
+                    <df name="slave">
+                      <in>eeprom.h</in>
+                    </df>
+                  </df>
+                  <df name="ieee802154">
+                    <in>cc1200.h</in>
+                  </df>
+                  <df name="interrupt_controller">
+                    <in>exti_stm32.h</in>
+                    <in>gic.h</in>
+                    <in>intc_esp32.h</in>
+                    <in>intc_mchp_xec_ecia.h</in>
+                    <in>intel_vtd.h</in>
+                    <in>ioapic.h</in>
+                    <in>loapic.h</in>
+                    <in>sam0_eic.h</in>
+                    <in>sysapic.h</in>
+                  </df>
+                  <df name="led">
+                    <in>ht16k33.h</in>
+                    <in>lp503x.h</in>
+                  </df>
+                  <df name="misc">
+                    <df name="ft8xx">
+                      <in>ft8xx.h</in>
+                      <in>ft8xx_common.h</in>
+                      <in>ft8xx_copro.h</in>
+                      <in>ft8xx_dl.h</in>
+                      <in>ft8xx_memory.h</in>
+                      <in>ft8xx_reference_api.h</in>
+                    </df>
+                  </df>
+                  <df name="modem">
+                    <in>hl7800.h</in>
+                  </df>
+                  <df name="pcie">
+                    <df name="endpoint">
+                      <in>pcie_ep.h</in>
+                    </df>
+                    <in>msi.h</in>
+                    <in>pcie.h</in>
+                  </df>
+                  <df name="pm_cpu_ops">
+                    <in>psci.h</in>
+                  </df>
+                  <df name="rtc">
+                    <in>maxim_ds3231.h</in>
+                  </df>
+                  <df name="sensor">
+                    <in>ccs811.h</in>
+                    <in>fdc2x1x.h</in>
+                    <in>mcux_acmp.h</in>
+                    <in>sgp40.h</in>
+                    <in>sht4x.h</in>
+                  </df>
+                  <df name="timer">
+                    <in>arm_arch_timer.h</in>
+                    <in>nrf_rtc_timer.h</in>
+                    <in>system_timer.h</in>
+                  </df>
+                  <df name="uart">
+                    <in>cdc_acm.h</in>
+                  </df>
+                  <df name="usb">
+                    <in>usb_dc.h</in>
+                  </df>
+                  <df name="virtualization">
+                    <in>ivshmem.h</in>
+                  </df>
+                  <in>adc.h</in>
+                  <in>cache.h</in>
+                  <in>can.h</in>
+                  <in>clock_control.h</in>
+                  <in>counter.h</in>
+                  <in>dac.h</in>
+                  <in>disk.h</in>
+                  <in>display.h</in>
+                  <in>dma.h</in>
+                  <in>ec_host_cmd_periph.h</in>
+                  <in>edac.h</in>
+                  <in>eeprom.h</in>
+                  <in>emul.h</in>
+                  <in>entropy.h</in>
+                  <in>espi.h</in>
+                  <in>espi_emul.h</in>
+                  <in>espi_saf.h</in>
+                  <in>flash.h</in>
+                  <in>gna.h</in>
+                  <in>gpio.h</in>
+                  <in>gsm_ppp.h</in>
+                  <in>hwinfo.h</in>
+                  <in>i2c.h</in>
+                  <in>i2c_emul.h</in>
+                  <in>i2s.h</in>
+                  <in>ipm.h</in>
+                  <in>kscan.h</in>
+                  <in>led.h</in>
+                  <in>led_strip.h</in>
+                  <in>lora.h</in>
+                  <in>peci.h</in>
+                  <in>pinmux.h</in>
+                  <in>pm_cpu_ops.h</in>
+                  <in>ps2.h</in>
+                  <in>ptp_clock.h</in>
+                  <in>pwm.h</in>
+                  <in>regulator.h</in>
+                  <in>sensor.h</in>
+                  <in>spi.h</in>
+                  <in>spi_emul.h</in>
+                  <in>syscon.h</in>
+                  <in>uart.h</in>
+                  <in>video-controls.h</in>
+                  <in>video.h</in>
+                  <in>watchdog.h</in>
+                </df>
+                <df name="include_drivers_adc">
+                  <in>adc_emul.h</in>
+                  <in>lmp90xxx.h</in>
+                </df>
+                <df name="include_drivers_bluetooth">
+                  <in>hci_driver.h</in>
+                </df>
+                <df name="include_drivers_clock_control">
+                  <in>arm_clock_control.h</in>
+                  <in>clock_control_litex.h</in>
+                  <in>lpc11u6x_clock_control.h</in>
+                  <in>mchp_xec_clock_control.h</in>
+                  <in>nrf_clock_control.h</in>
+                  <in>rcar_clock_control.h</in>
+                  <in>stm32_clock_control.h</in>
+                </df>
+                <df name="include_drivers_console">
+                  <in>console.h</in>
+                  <in>ipm_console.h</in>
+                  <in>native_posix_console.h</in>
+                  <in>uart_console.h</in>
+                  <in>uart_mcumgr.h</in>
+                  <in>uart_mux.h</in>
+                  <in>uart_pipe.h</in>
+                </df>
+                <df name="include_drivers_dma">
+                  <in>dma_stm32.h</in>
+                </df>
+                <df name="include_drivers_ec_host_cmd_periph">
+                  <in>ec_host_cmd_simulator.h</in>
+                </df>
+                <df name="include_drivers_gpio">
+                  <in>gpio_emul.h</in>
+                  <in>gpio_esp32.h</in>
+                  <in>gpio_mmio32.h</in>
+                  <in>gpio_sx1509b.h</in>
+                </df>
+                <df name="include_drivers_i2c">
+                  <df name="slave">
+                    <in>eeprom.h</in>
+                  </df>
+                </df>
+                <df name="include_drivers_i2c_slave">
+                  <in>eeprom.h</in>
+                </df>
+                <df name="include_drivers_ieee802154">
+                  <in>cc1200.h</in>
+                </df>
+                <df name="include_drivers_interrupt_controller">
+                  <in>exti_stm32.h</in>
+                  <in>gic.h</in>
+                  <in>intc_esp32.h</in>
+                  <in>intc_mchp_xec_ecia.h</in>
+                  <in>intel_vtd.h</in>
+                  <in>ioapic.h</in>
+                  <in>loapic.h</in>
+                  <in>sam0_eic.h</in>
+                  <in>sysapic.h</in>
+                </df>
+                <df name="include_drivers_led">
+                  <in>ht16k33.h</in>
+                  <in>lp503x.h</in>
+                </df>
+                <df name="include_drivers_misc">
+                  <df name="ft8xx">
+                    <in>ft8xx.h</in>
+                    <in>ft8xx_common.h</in>
+                    <in>ft8xx_copro.h</in>
+                    <in>ft8xx_dl.h</in>
+                    <in>ft8xx_memory.h</in>
+                    <in>ft8xx_reference_api.h</in>
+                  </df>
+                </df>
+                <df name="include_drivers_misc_ft8xx">
+                  <in>ft8xx.h</in>
+                  <in>ft8xx_common.h</in>
+                  <in>ft8xx_copro.h</in>
+                  <in>ft8xx_dl.h</in>
+                  <in>ft8xx_memory.h</in>
+                  <in>ft8xx_reference_api.h</in>
+                </df>
+                <df name="include_drivers_modem">
+                  <in>hl7800.h</in>
+                </df>
+                <df name="include_drivers_pcie">
+                  <df name="endpoint">
+                    <in>pcie_ep.h</in>
+                  </df>
+                  <in>msi.h</in>
+                  <in>pcie.h</in>
+                </df>
+                <df name="include_drivers_pcie_endpoint">
+                  <in>pcie_ep.h</in>
+                </df>
+                <df name="include_drivers_pm_cpu_ops">
+                  <in>psci.h</in>
+                </df>
+                <df name="include_drivers_rtc">
+                  <in>maxim_ds3231.h</in>
+                </df>
+                <df name="include_drivers_sensor">
+                  <in>ccs811.h</in>
+                  <in>fdc2x1x.h</in>
+                  <in>mcux_acmp.h</in>
+                  <in>sgp40.h</in>
+                  <in>sht4x.h</in>
+                </df>
+                <df name="include_drivers_timer">
+                  <in>arm_arch_timer.h</in>
+                  <in>nrf_rtc_timer.h</in>
+                  <in>system_timer.h</in>
+                </df>
+                <df name="include_drivers_uart">
+                  <in>cdc_acm.h</in>
+                </df>
+                <df name="include_drivers_usb">
+                  <in>usb_dc.h</in>
+                </df>
+                <df name="include_drivers_virtualization">
+                  <in>ivshmem.h</in>
+                </df>
+                <df name="include_dt-bindings">
+                  <df name="adc">
+                    <in>adc.h</in>
+                  </df>
+                  <df name="clock">
+                    <in>esp32_clock.h</in>
+                    <in>imx_ccm.h</in>
+                    <in>imx_ccm_rev2.h</in>
+                    <in>kinetis_mcg.h</in>
+                    <in>kinetis_pcc.h</in>
+                    <in>kinetis_scg.h</in>
+                    <in>kinetis_sim.h</in>
+                    <in>lpc11u6x_clock.h</in>
+                    <in>mchp_xec_pcr.h</in>
+                    <in>mcux_lpc_syscon_clock.h</in>
+                    <in>npcx_clock.h</in>
+                    <in>renesas_rcar_cpg.h</in>
+                    <in>stm32_clock.h</in>
+                  </df>
+                  <df name="dac">
+                    <in>dacx0508.h</in>
+                  </df>
+                  <df name="display">
+                    <in>ili9340.h</in>
+                    <in>ili9xxx.h</in>
+                  </df>
+                  <df name="dma">
+                    <in>stm32_dma.h</in>
+                  </df>
+                  <df name="espi">
+                    <in>npcx_espi.h</in>
+                  </df>
+                  <df name="ethernet">
+                    <in>xlnx_gem.h</in>
+                  </df>
+                  <df name="gpio">
+                    <in>gpio.h</in>
+                  </df>
+                  <df name="i2c">
+                    <in>i2c.h</in>
+                  </df>
+                  <df name="interrupt-controller">
+                    <in>arm-gic.h</in>
+                    <in>esp-xtensa-intmux.h</in>
+                    <in>intel-ioapic.h</in>
+                    <in>intel-mvic.h</in>
+                    <in>ite-intc.h</in>
+                    <in>mchp-xec-ecia.h</in>
+                    <in>openisa-intmux.h</in>
+                  </df>
+                  <df name="led">
+                    <in>led.h</in>
+                  </df>
+                  <df name="lora">
+                    <in>sx126x.h</in>
+                  </df>
+                  <df name="memory-controller">
+                    <in>stm32-fmc-sdram.h</in>
+                  </df>
+                  <df name="pcie">
+                    <in>pcie.h</in>
+                  </df>
+                  <df name="pinctrl">
+                    <in>b91-pinctrl.h</in>
+                    <in>it8xxx2-pinctrl.h</in>
+                    <in>lpc11u6x-pinctrl.h</in>
+                    <in>npcx-pinctrl.h</in>
+                    <in>stm32-pinctrl-common.h</in>
+                    <in>stm32-pinctrl.h</in>
+                    <in>stm32f1-pinctrl.h</in>
+                  </df>
+                  <df name="pwm">
+                    <in>it8xxx2_pwm.h</in>
+                    <in>pwm.h</in>
+                  </df>
+                  <df name="rdc">
+                    <in>imx_rdc.h</in>
+                  </df>
+                  <df name="sensor">
+                    <in>npcx_tach.h</in>
+                  </df>
+                  <df name="usb">
+                    <in>usb.h</in>
+                  </df>
+                  <in>dt-util.h</in>
+                </df>
+                <df name="include_dt-bindings_adc">
+                  <in>adc.h</in>
+                </df>
+                <df name="include_dt-bindings_clock">
+                  <in>esp32_clock.h</in>
+                  <in>imx_ccm.h</in>
+                  <in>imx_ccm_rev2.h</in>
+                  <in>kinetis_mcg.h</in>
+                  <in>kinetis_pcc.h</in>
+                  <in>kinetis_scg.h</in>
+                  <in>kinetis_sim.h</in>
+                  <in>lpc11u6x_clock.h</in>
+                  <in>mchp_xec_pcr.h</in>
+                  <in>mcux_lpc_syscon_clock.h</in>
+                  <in>npcx_clock.h</in>
+                  <in>renesas_rcar_cpg.h</in>
+                  <in>stm32_clock.h</in>
+                </df>
+                <df name="include_dt-bindings_dac">
+                  <in>dacx0508.h</in>
+                </df>
+                <df name="include_dt-bindings_display">
+                  <in>ili9340.h</in>
+                  <in>ili9xxx.h</in>
+                </df>
+                <df name="include_dt-bindings_espi">
+                  <in>npcx_espi.h</in>
+                </df>
+                <df name="include_dt-bindings_ethernet">
+                  <in>xlnx_gem.h</in>
+                </df>
+                <df name="include_dt-bindings_gpio">
+                  <in>gpio.h</in>
+                </df>
+                <df name="include_dt-bindings_i2c">
+                  <in>i2c.h</in>
+                </df>
+                <df name="include_dt-bindings_interrupt-controller">
+                  <in>arm-gic.h</in>
+                  <in>esp-xtensa-intmux.h</in>
+                  <in>intel-ioapic.h</in>
+                  <in>intel-mvic.h</in>
+                  <in>ite-intc.h</in>
+                  <in>mchp-xec-ecia.h</in>
+                  <in>openisa-intmux.h</in>
+                </df>
+                <df name="include_dt-bindings_led">
+                  <in>led.h</in>
+                </df>
+                <df name="include_dt-bindings_lora">
+                  <in>sx126x.h</in>
+                </df>
+                <df name="include_dt-bindings_memory-controller">
+                  <in>stm32-fmc-sdram.h</in>
+                </df>
+                <df name="include_dt-bindings_pcie">
+                  <in>pcie.h</in>
+                </df>
+                <df name="include_dt-bindings_pinctrl">
+                  <in>b91-pinctrl.h</in>
+                  <in>it8xxx2-pinctrl.h</in>
+                  <in>lpc11u6x-pinctrl.h</in>
+                  <in>npcx-pinctrl.h</in>
+                  <in>stm32-pinctrl-common.h</in>
+                  <in>stm32-pinctrl.h</in>
+                  <in>stm32f1-pinctrl.h</in>
+                </df>
+                <df name="include_dt-bindings_pwm">
+                  <in>it8xxx2_pwm.h</in>
+                  <in>pwm.h</in>
+                </df>
+                <df name="include_dt-bindings_rdc">
+                  <in>imx_rdc.h</in>
+                </df>
+                <df name="include_dt-bindings_sensor">
+                  <in>npcx_tach.h</in>
+                </df>
+                <df name="include_dt-bindings_usb">
+                  <in>usb.h</in>
+                </df>
+                <df name="include_fs">
+                  <in>fcb.h</in>
+                  <in>fs.h</in>
+                  <in>fs_interface.h</in>
+                  <in>fs_sys.h</in>
+                  <in>littlefs.h</in>
+                  <in>nvs.h</in>
+                </df>
+                <df name="include_ipc">
+                  <in>ipc_service.h</in>
+                  <in>ipc_service_backend.h</in>
+                  <in>rpmsg_multi_instance.h</in>
+                  <in>rpmsg_service.h</in>
+                </df>
+                <df name="include_kernel">
+                  <in>mempool_heap.h</in>
+                  <in>sched_priq.h</in>
+                  <in>thread.h</in>
+                  <in>thread_stack.h</in>
+                </df>
+                <df name="include_linker">
+                  <in>devicetree_regions.h</in>
+                  <in>devicetree_reserved.h</in>
+                  <in>linker-defs.h</in>
+                  <in>linker-tool-gcc.h</in>
+                  <in>linker-tool-mwdt.h</in>
+                  <in>linker-tool.h</in>
+                  <in>section_tags.h</in>
+                  <in>sections.h</in>
+                </df>
+                <df name="include_logging">
+                  <in>log.h</in>
+                  <in>log_backend.h</in>
+                  <in>log_backend_std.h</in>
+                  <in>log_core.h</in>
+                  <in>log_core2.h</in>
+                  <in>log_ctrl.h</in>
+                  <in>log_frontend.h</in>
+                  <in>log_instance.h</in>
+                  <in>log_msg.h</in>
+                  <in>log_msg2.h</in>
+                  <in>log_output.h</in>
+                  <in>log_output_dict.h</in>
+                </df>
+                <df name="include_lorawan">
+                  <in>lorawan.h</in>
+                </df>
+                <df name="include_mgmt">
+                  <df name="mcumgr">
+                    <in>buf.h</in>
+                    <in>serial.h</in>
+                    <in>smp.h</in>
+                    <in>smp_bt.h</in>
+                    <in>smp_shell.h</in>
+                    <in>smp_udp.h</in>
+                    <in>zephyr_groups.h</in>
+                  </df>
+                  <in>ec_host_cmd.h</in>
+                  <in>hawkbit.h</in>
+                  <in>osdp.h</in>
+                </df>
+                <df name="include_mgmt_mcumgr">
+                  <in>buf.h</in>
+                  <in>serial.h</in>
+                  <in>smp.h</in>
+                  <in>smp_bt.h</in>
+                  <in>smp_shell.h</in>
+                  <in>smp_udp.h</in>
+                  <in>zephyr_groups.h</in>
+                </df>
+                <df name="include_modbus">
+                  <in>modbus.h</in>
+                </df>
+                <df name="include_net">
+                  <in>bt.h</in>
+                  <in>buf.h</in>
+                  <in>can.h</in>
+                  <in>capture.h</in>
+                  <in>coap.h</in>
+                  <in>coap_link_format.h</in>
+                  <in>dhcpv4.h</in>
+                  <in>dns_resolve.h</in>
+                  <in>dns_sd.h</in>
+                  <in>dsa.h</in>
+                  <in>dummy.h</in>
+                  <in>ethernet.h</in>
+                  <in>ethernet_bridge.h</in>
+                  <in>ethernet_mgmt.h</in>
+                  <in>ethernet_vlan.h</in>
+                  <in>gptp.h</in>
+                  <in>hostname.h</in>
+                  <in>http_client.h</in>
+                  <in>http_parser.h</in>
+                  <in>http_parser_state.h</in>
+                  <in>http_parser_url.h</in>
+                  <in>ieee802154.h</in>
+                  <in>ieee802154_mgmt.h</in>
+                  <in>ieee802154_radio.h</in>
+                  <in>igmp.h</in>
+                  <in>ipv4_autoconf.h</in>
+                  <in>lldp.h</in>
+                  <in>lwm2m.h</in>
+                  <in>lwm2m_path.h</in>
+                  <in>mii.h</in>
+                  <in>mqtt.h</in>
+                  <in>net_config.h</in>
+                  <in>net_conn_mgr.h</in>
+                  <in>net_context.h</in>
+                  <in>net_core.h</in>
+                  <in>net_event.h</in>
+                  <in>net_if.h</in>
+                  <in>net_ip.h</in>
+                  <in>net_l2.h</in>
+                  <in>net_linkaddr.h</in>
+                  <in>net_mgmt.h</in>
+                  <in>net_offload.h</in>
+                  <in>net_pkt.h</in>
+                  <in>net_stats.h</in>
+                  <in>net_timeout.h</in>
+                  <in>openthread.h</in>
+                  <in>ppp.h</in>
+                  <in>promiscuous.h</in>
+                  <in>ptp_time.h</in>
+                  <in>sntp.h</in>
+                  <in>socket.h</in>
+                  <in>socket_can.h</in>
+                  <in>socket_net_mgmt.h</in>
+                  <in>socket_offload.h</in>
+                  <in>socket_select.h</in>
+                  <in>socket_types.h</in>
+                  <in>socketutils.h</in>
+                  <in>tftp.h</in>
+                  <in>tls_credentials.h</in>
+                  <in>trickle.h</in>
+                  <in>udp.h</in>
+                  <in>virtual.h</in>
+                  <in>virtual_mgmt.h</in>
+                  <in>websocket.h</in>
+                  <in>wifi.h</in>
+                  <in>wifi_mgmt.h</in>
+                </df>
+                <df name="include_pm">
+                  <in>device.h</in>
+                  <in>device_runtime.h</in>
+                  <in>pm.h</in>
+                  <in>policy.h</in>
+                  <in>state.h</in>
+                </df>
+                <df name="include_portability">
+                  <in>cmsis_os.h</in>
+                  <in>cmsis_os2.h</in>
+                </df>
+                <df name="include_posix">
+                  <df name="arpa">
+                    <in>inet.h</in>
+                  </df>
+                  <df name="net">
+                    <in>if.h</in>
+                  </df>
+                  <df name="netinet">
+                    <in>in.h</in>
+                    <in>tcp.h</in>
+                  </df>
+                  <df name="sys">
+                    <in>eventfd.h</in>
+                    <in>ioctl.h</in>
+                    <in>select.h</in>
+                    <in>socket.h</in>
+                    <in>time.h</in>
+                  </df>
+                  <in>dirent.h</in>
+                  <in>mqueue.h</in>
+                  <in>netdb.h</in>
+                  <in>poll.h</in>
+                  <in>posix_sched.h</in>
+                  <in>posix_types.h</in>
+                  <in>pthread.h</in>
+                  <in>pthread_key.h</in>
+                  <in>semaphore.h</in>
+                  <in>signal.h</in>
+                  <in>time.h</in>
+                  <in>unistd.h</in>
+                </df>
+                <df name="include_posix_arpa">
+                  <in>inet.h</in>
+                </df>
+                <df name="include_posix_net">
+                  <in>if.h</in>
+                </df>
+                <df name="include_posix_netinet">
+                  <in>in.h</in>
+                  <in>tcp.h</in>
+                </df>
+                <df name="include_posix_sys">
+                  <in>eventfd.h</in>
+                  <in>ioctl.h</in>
+                  <in>select.h</in>
+                  <in>socket.h</in>
+                  <in>time.h</in>
+                </df>
+                <df name="include_power">
+                  <in>power.h</in>
+                  <in>reboot.h</in>
+                </df>
+                <df name="include_random">
+                  <in>rand32.h</in>
+                </df>
+                <df name="include_settings">
+                  <in>settings.h</in>
+                </df>
+                <df name="include_shell">
+                  <in>shell.h</in>
+                  <in>shell_dummy.h</in>
+                  <in>shell_fprintf.h</in>
+                  <in>shell_getopt.h</in>
+                  <in>shell_history.h</in>
+                  <in>shell_log_backend.h</in>
+                  <in>shell_rtt.h</in>
+                  <in>shell_telnet.h</in>
+                  <in>shell_types.h</in>
+                  <in>shell_uart.h</in>
+                </df>
+                <df name="include_stats">
+                  <in>stats.h</in>
+                </df>
+                <df name="include_storage">
+                  <in>disk_access.h</in>
+                  <in>flash_map.h</in>
+                  <in>stream_flash.h</in>
+                </df>
+                <df name="include_sys">
+                  <in>__assert.h</in>
+                  <in>arch_interface.h</in>
+                  <in>atomic.h</in>
+                  <in>atomic_arch.h</in>
+                  <in>atomic_builtin.h</in>
+                  <in>atomic_c.h</in>
+                  <in>base64.h</in>
+                  <in>bitarray.h</in>
+                  <in>byteorder.h</in>
+                  <in>cbprintf.h</in>
+                  <in>cbprintf_cxx.h</in>
+                  <in>cbprintf_internal.h</in>
+                  <in>check.h</in>
+                  <in>crc.h</in>
+                  <in>device_mmio.h</in>
+                  <in>dlist.h</in>
+                  <in>errno_private.h</in>
+                  <in>fdtable.h</in>
+                  <in>kobject.h</in>
+                  <in>libc-hooks.h</in>
+                  <in>list_gen.h</in>
+                  <in>math_extras.h</in>
+                  <in>math_extras_impl.h</in>
+                  <in>mem_manage.h</in>
+                  <in>mempool.h</in>
+                  <in>mempool_base.h</in>
+                  <in>mpsc_packet.h</in>
+                  <in>mpsc_pbuf.h</in>
+                  <in>mutex.h</in>
+                  <in>notify.h</in>
+                  <in>onoff.h</in>
+                  <in>p4wq.h</in>
+                  <in>printk.h</in>
+                  <in>rb.h</in>
+                  <in>reboot.h</in>
+                  <in>ring_buffer.h</in>
+                  <in>sem.h</in>
+                  <in>sflist.h</in>
+                  <in>slist.h</in>
+                  <in>speculation.h</in>
+                  <in>sys_heap.h</in>
+                  <in>sys_io.h</in>
+                  <in>thread_stack.h</in>
+                  <in>time_units.h</in>
+                  <in>timeutil.h</in>
+                  <in>util.h</in>
+                  <in>util_internal.h</in>
+                  <in>util_loops.h</in>
+                  <in>util_macro.h</in>
+                </df>
+                <df name="include_task_wdt">
+                  <in>task_wdt.h</in>
+                </df>
+                <df name="include_timing">
+                  <in>timing.h</in>
+                  <in>types.h</in>
+                </df>
+                <df name="include_toolchain">
+                  <in>common.h</in>
+                  <in>gcc.h</in>
+                  <in>llvm.h</in>
+                  <in>mwdt.h</in>
+                  <in>xcc.h</in>
+                  <in>xcc_missing_defs.h</in>
+                  <in>zephyr_stdint.h</in>
+                </df>
+                <df name="include_tracing">
+                  <in>tracing.h</in>
+                  <in>tracing_format.h</in>
+                  <in>tracing_macros.h</in>
+                </df>
+                <df name="include_usb">
+                  <df name="class">
+                    <in>hid.h</in>
+                    <in>usb_audio.h</in>
+                    <in>usb_cdc.h</in>
+                    <in>usb_dfu.h</in>
+                    <in>usb_hid.h</in>
+                    <in>usb_msc.h</in>
+                  </df>
+                  <in>bos.h</in>
+                  <in>usb_common.h</in>
+                  <in>usb_device.h</in>
+                  <in>usbstruct.h</in>
+                </df>
+                <df name="include_usb_class">
+                  <in>hid.h</in>
+                  <in>usb_audio.h</in>
+                  <in>usb_cdc.h</in>
+                  <in>usb_dfu.h</in>
+                  <in>usb_hid.h</in>
+                  <in>usb_msc.h</in>
+                </df>
+                <df name="include_zephyr">
+                  <in>types.h</in>
+                </df>
+              </df>
+              <in>configs.c</in>
+            </df>
+          </df>
+          <df name="soc">
+            <df name="arm">
+              <df name="CMakeFiles">
+              </df>
+              <df name="common">
+                <df name="cortex_m">
+                  <df name="CMakeFiles">
+                    <df name="soc__arm__common__cortex_m.dir">
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="nordic_nrf">
+                <df name="CMakeFiles">
+                </df>
+                <df name="common">
+                  <df name="CMakeFiles">
+                  </df>
+                </df>
+                <df name="nrf52">
+                  <df name="CMakeFiles">
+                    <df name="soc__arm__nordic_nrf__nrf52.dir">
+                    </df>
+                  </df>
+                </df>
+              </df>
+            </df>
+          </df>
+          <df name="subsys">
+            <df name="bluetooth">
+              <df name="CMakeFiles">
+              </df>
+              <df name="common">
+                <df name="CMakeFiles">
+                  <df name="subsys__bluetooth__common.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="controller">
+                <df name="CMakeFiles">
+                  <df name="subsys__bluetooth__controller.dir">
+                    <df name="crypto">
+                    </df>
+                    <df name="hci">
+                      <df name="nordic">
+                      </df>
+                    </df>
+                    <df name="ll_sw">
+                      <df name="nordic">
+                        <df name="hal">
+                          <df name="nrf5">
+                            <df name="radio">
+                            </df>
+                          </df>
+                        </df>
+                        <df name="lll">
+                        </df>
+                      </df>
+                    </df>
+                    <df name="ticker">
+                    </df>
+                    <df name="util">
+                    </df>
+                  </df>
+                </df>
+              </df>
+              <df name="host">
+                <df name="CMakeFiles">
+                  <df name="subsys__bluetooth__host.dir">
+                  </df>
+                </df>
+              </df>
+              <df name="services">
+                <df name="CMakeFiles">
+                </df>
+              </df>
+            </df>
+            <df name="canbus">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="CMakeFiles">
+            </df>
+            <df name="cpp">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="debug">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="fb">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="fs">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="ipc">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="logging">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="mgmt">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="modbus">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="net">
+              <df name="CMakeFiles">
+                <df name="subsys__net.dir">
+                </df>
+              </df>
+              <df name="lib">
+                <df name="CMakeFiles">
+                </df>
+                <df name="utils">
+                  <df name="CMakeFiles">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="pm">
+              <df name="CMakeFiles">
+              </df>
+              <df name="policy">
+                <df name="CMakeFiles">
+                </df>
+              </df>
+            </df>
+            <df name="portability">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="random">
+              <df name="CMakeFiles">
+                <df name="subsys__random.dir">
+                </df>
+              </df>
+            </df>
+            <df name="stats">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="storage">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="task_wdt">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="testsuite">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+            <df name="tracing">
+              <df name="CMakeFiles">
+              </df>
+            </df>
+          </df>
+          <in>isr_tables.c</in>
+        </df>
+      </df>
+      <df name="src">
+        <in>Q_Bluetooth.cpp</in>
+        <in>Q_Bluetooth.hpp</in>
+        <in>Q_GPIO.cpp</in>
+        <in>Q_GPIO.hpp</in>
+        <in>Q_Globals.cpp</in>
+        <in>Q_Globals.hpp</in>
+        <in>Q_Logger.cpp</in>
+        <in>Q_Logger.h</in>
+        <in>Q_Timer.cpp</in>
+        <in>Q_Timer.hpp</in>
+        <in>Q_ULP.cpp</in>
+        <in>Q_ULP.hpp</in>
+        <in>Q_adc.cpp</in>
+        <in>Q_adc.hpp</in>
+        <in>main.cpp</in>
+      </df>
+    </df>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Nrf52Dongle" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem></runcommandpicklistitem>
+          <runcommandpicklistitem>nrf52Flash build/zephyr/zephyr.hex;minicom -D /dev/ttyACM0</runcommandpicklistitem>
+          <runcommandpicklistitem>nrf52Flash build/zephyr/zephyr.hex
+minicom -D /dev/ttyACM0</runcommandpicklistitem>
+          <runcommandpicklistitem>nrf52Flash build/zephyr/zephyr.hex minicom -D /dev/ttyACM0</runcommandpicklistitem>
+          <runcommandpicklistitem>nrf52Flash build/zephyr/zephyr.hex;
+ls -l</runcommandpicklistitem>
+          <runcommandpicklistitem>minicom -D /dev/ttyACM0
+</runcommandpicklistitem>
+          <runcommandpicklistitem>minicom -D /dev/ttyACM0 </runcommandpicklistitem>
+          <runcommandpicklistitem>nrf52Flash build/zephyr/zephyr.hex</runcommandpicklistitem>
+          <runcommandpicklistitem>nrf52Flash build/zephyr/zephyr.hex /dev/ttyACM1</runcommandpicklistitem>
+          <runcommandpicklistitem>nrf52Flash build/zephyr/zephyr.hex /dev/ttyACM0</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>nrf52Flash build/zephyr/zephyr.hex /dev/ttyACM0</runcommand>
+        <rundir>.</rundir>
+        <buildfirst>true</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Nrf52DK" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>"${OUTPUT_PATH}"</runcommand>
+        <rundir></rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="Nrf52833" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>west flash</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>west flash</runcommand>
+        <rundir></rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+    <conf name="arduino_33_ble" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <platform>2</platform>
+      </toolsSet>
+      <compile>
+        <compiledirpicklist>
+          <compiledirpicklistitem>.</compiledirpicklistitem>
+          <compiledirpicklistitem>${AUTO_FOLDER}</compiledirpicklistitem>
+        </compiledirpicklist>
+        <compiledir>${AUTO_FOLDER}</compiledir>
+        <compilecommandpicklist>
+          <compilecommandpicklistitem>${MAKE} ${ITEM_NAME}.o</compilecommandpicklistitem>
+          <compilecommandpicklistitem>${AUTO_COMPILE}</compilecommandpicklistitem>
+        </compilecommandpicklist>
+        <compilecommand>${AUTO_COMPILE}</compilecommand>
+      </compile>
+      <dbx_gdbdebugger version="1">
+        <gdb_pathmaps>
+        </gdb_pathmaps>
+        <gdb_interceptlist>
+          <gdbinterceptoptions gdb_all="false" gdb_unhandled="true" gdb_unexpected="true"/>
+        </gdb_interceptlist>
+        <gdb_options>
+          <DebugOptions>
+          </DebugOptions>
+        </gdb_options>
+        <gdb_buildfirst gdb_buildfirst_overriden="false" gdb_buildfirst_old="false"/>
+      </dbx_gdbdebugger>
+      <nativedebugger version="1">
+        <engine>gdb</engine>
+      </nativedebugger>
+      <runprofile version="9">
+        <runcommandpicklist>
+          <runcommandpicklistitem>"${OUTPUT_PATH}"</runcommandpicklistitem>
+          <runcommandpicklistitem>west flash --bossac "../../arduino/bossac"</runcommandpicklistitem>
+        </runcommandpicklist>
+        <runcommand>west flash --bossac "../../arduino/bossac"</runcommand>
+        <rundir></rundir>
+        <buildfirst>false</buildfirst>
+        <terminal-type>0</terminal-type>
+        <remove-instrumentation>0</remove-instrumentation>
+        <environment>
+        </environment>
+      </runprofile>
+    </conf>
+  </confs>
+</configurationDescriptor>
