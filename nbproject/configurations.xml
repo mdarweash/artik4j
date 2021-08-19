@@ -3042,6 +3042,8 @@
                         <logicalFolder name="nofp" displayName="nofp" projectFiles="true">
                           <logicalFolder name="bits" displayName="bits" projectFiles="true">
                             <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/include/c++/10.2.0/arm-zephyr-eabi/thumb/v7e-m/nofp/bits/c++config.h</itemPath>
+                            <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/include/c++/10.2.0/arm-zephyr-eabi/thumb/v7e-m/nofp/bits/cpu_defines.h</itemPath>
+                            <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/include/c++/10.2.0/arm-zephyr-eabi/thumb/v7e-m/nofp/bits/os_defines.h</itemPath>
                           </logicalFolder>
                         </logicalFolder>
                       </logicalFolder>
@@ -3061,22 +3063,56 @@
             <logicalFolder name="sys-include" displayName="sys-include" projectFiles="true">
               <logicalFolder name="machine" displayName="machine" projectFiles="true">
                 <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/_default_types.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/_endian.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/_time.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/_types.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/endian.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/ieeefp.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/stdlib.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/time.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine/types.h</itemPath>
               </logicalFolder>
               <logicalFolder name="ssp" displayName="ssp" projectFiles="true">
                 <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/ssp/ssp.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/ssp/stdio.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/ssp/stdlib.h</itemPath>
                 <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/ssp/string.h</itemPath>
               </logicalFolder>
               <logicalFolder name="sys" displayName="sys" projectFiles="true">
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_default_fcntl.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_intsup.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_locale.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_pthreadtypes.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_sigset.h</itemPath>
                 <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_stdint.h</itemPath>
                 <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_timespec.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_timeval.h</itemPath>
                 <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/_types.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/cdefs.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/config.h</itemPath>
                 <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/errno.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/fcntl.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/features.h</itemPath>
                 <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/lock.h</itemPath>
                 <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/reent.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/sched.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/select.h</itemPath>
                 <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/stat.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/stdio.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/string.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/syslimits.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/time.h</itemPath>
+                <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/timespec.h</itemPath>
                 <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys/types.h</itemPath>
               </logicalFolder>
+              <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/_ansi.h</itemPath>
+              <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/_newlib_version.h</itemPath>
+              <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/ctype.h</itemPath>
+              <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/inttypes.h</itemPath>
+              <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/limits.h</itemPath>
               <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/math.h</itemPath>
+              <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/newlib.h</itemPath>
+              <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/stdint.h</itemPath>
               <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/stdio.h</itemPath>
               <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/stdlib.h</itemPath>
               <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/string.h</itemPath>
@@ -3091,7 +3127,9 @@
                 <logicalFolder name="10.2.0" displayName="10.2.0" projectFiles="true">
                   <logicalFolder name="include" displayName="include" projectFiles="true">
                     <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include/stdarg.h</itemPath>
+                    <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include/stdbool.h</itemPath>
                     <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include/stddef.h</itemPath>
+                    <itemPath>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include/stdint.h</itemPath>
                   </logicalFolder>
                 </logicalFolder>
               </logicalFolder>
@@ -3119,7 +3157,9 @@
               <logicalFolder name="nrfx" displayName="nrfx" projectFiles="true">
                 <logicalFolder name="drivers" displayName="drivers" projectFiles="true">
                   <logicalFolder name="include" displayName="include" projectFiles="true">
+                    <itemPath>../../modules/hal/nordic/nrfx/drivers/include/nrf_bitmask.h</itemPath>
                     <itemPath>../../modules/hal/nordic/nrfx/drivers/include/nrfx_clock.h</itemPath>
+                    <itemPath>../../modules/hal/nordic/nrfx/drivers/include/nrfx_gpiote.h</itemPath>
                     <itemPath>../../modules/hal/nordic/nrfx/drivers/include/nrfx_power.h</itemPath>
                     <itemPath>../../modules/hal/nordic/nrfx/drivers/include/nrfx_power_clock.h</itemPath>
                     <itemPath>../../modules/hal/nordic/nrfx/drivers/include/nrfx_power_compat.h</itemPath>
@@ -3137,6 +3177,7 @@
                   <itemPath>../../modules/hal/nordic/nrfx/drivers/nrfx_errors.h</itemPath>
                 </logicalFolder>
                 <logicalFolder name="hal" displayName="hal" projectFiles="true">
+                  <itemPath>../../modules/hal/nordic/nrfx/hal/nrf_aar.h</itemPath>
                   <itemPath>../../modules/hal/nordic/nrfx/hal/nrf_ccm.h</itemPath>
                   <itemPath>../../modules/hal/nordic/nrfx/hal/nrf_clock.h</itemPath>
                   <itemPath>../../../zephyrproject/modules/hal/nordic/nrfx/hal/nrf_common.h</itemPath>
@@ -3151,6 +3192,7 @@
                   <itemPath>../../../zephyrproject/modules/hal/nordic/nrfx/hal/nrf_ppi.h</itemPath>
                   <itemPath>../../modules/hal/nordic/nrfx/hal/nrf_ppi.h</itemPath>
                   <itemPath>../../modules/hal/nordic/nrfx/hal/nrf_radio.h</itemPath>
+                  <itemPath>../../modules/hal/nordic/nrfx/hal/nrf_reset.h</itemPath>
                   <itemPath>../../../zephyrproject/modules/hal/nordic/nrfx/hal/nrf_rng.h</itemPath>
                   <itemPath>../../modules/hal/nordic/nrfx/hal/nrf_rng.h</itemPath>
                   <itemPath>../../modules/hal/nordic/nrfx/hal/nrf_rtc.h</itemPath>
@@ -3190,11 +3232,13 @@
                   <itemPath>../../zephyr/arch/arm/include/aarch32/kernel_arch_func.h</itemPath>
                   <itemPath>../../zephyr/arch/arm/include/aarch32/offsets_short_arch.h</itemPath>
                 </logicalFolder>
+                <itemPath>../../zephyr/arch/arm/include/kernel_arch_data.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
           <logicalFolder name="include" displayName="include" projectFiles="true">
             <logicalFolder name="app_memory" displayName="app_memory" projectFiles="true">
+              <itemPath>../../zephyr/include/app_memory/app_memdomain.h</itemPath>
               <itemPath>../../zephyr/include/app_memory/mem_domain.h</itemPath>
             </logicalFolder>
             <logicalFolder name="arch" displayName="arch" projectFiles="true">
@@ -3205,11 +3249,19 @@
                       <itemPath>../../zephyr/include/arch/arm/aarch32/cortex_m/mpu/arm_mpu.h</itemPath>
                       <itemPath>../../zephyr/include/arch/arm/aarch32/cortex_m/mpu/arm_mpu_v7m.h</itemPath>
                     </logicalFolder>
+                    <itemPath>../../zephyr/include/arch/arm/aarch32/cortex_m/cmsis.h</itemPath>
+                    <itemPath>../../zephyr/include/arch/arm/aarch32/cortex_m/fpu.h</itemPath>
+                    <itemPath>../../zephyr/include/arch/arm/aarch32/cortex_m/nvic.h</itemPath>
+                  </logicalFolder>
+                  <logicalFolder name="mpu" displayName="mpu" projectFiles="true">
+                    <itemPath>../../zephyr/include/arch/arm/aarch32/mpu/arm_mpu.h</itemPath>
+                    <itemPath>../../zephyr/include/arch/arm/aarch32/mpu/arm_mpu_v7m.h</itemPath>
                   </logicalFolder>
                   <itemPath>../../zephyr/include/arch/arm/aarch32/asm_inline_gcc.h</itemPath>
                   <itemPath>../../zephyr/include/arch/arm/aarch32/exc.h</itemPath>
                   <itemPath>../../zephyr/include/arch/arm/aarch32/irq.h</itemPath>
                   <itemPath>../../zephyr/include/arch/arm/aarch32/misc.h</itemPath>
+                  <itemPath>../../zephyr/include/arch/arm/aarch32/syscall.h</itemPath>
                   <itemPath>../../zephyr/include/arch/arm/aarch32/thread.h</itemPath>
                 </logicalFolder>
               </logicalFolder>
@@ -3217,23 +3269,34 @@
                 <itemPath>../../zephyr/include/arch/common/ffs.h</itemPath>
                 <itemPath>../../zephyr/include/arch/common/sys_bitops.h</itemPath>
               </logicalFolder>
+              <itemPath>../../zephyr/include/arch/arch_inlines.h</itemPath>
+              <itemPath>../../zephyr/include/arch/cpu.h</itemPath>
+              <itemPath>../../zephyr/include/arch/structs.h</itemPath>
+              <itemPath>../../zephyr/include/arch/syscall.h</itemPath>
             </logicalFolder>
             <logicalFolder name="bluetooth" displayName="bluetooth" projectFiles="true">
               <itemPath>../../zephyr/include/bluetooth/addr.h</itemPath>
+              <itemPath>../../zephyr/include/bluetooth/att.h</itemPath>
               <itemPath>../../zephyr/include/bluetooth/bluetooth.h</itemPath>
               <itemPath>../../zephyr/include/bluetooth/buf.h</itemPath>
               <itemPath>../../zephyr/include/bluetooth/conn.h</itemPath>
+              <itemPath>../../zephyr/include/bluetooth/controller.h</itemPath>
               <itemPath>../../zephyr/include/bluetooth/crypto.h</itemPath>
+              <itemPath>../../zephyr/include/bluetooth/direction.h</itemPath>
               <itemPath>../../zephyr/include/bluetooth/gap.h</itemPath>
               <itemPath>../../zephyr/include/bluetooth/gatt.h</itemPath>
               <itemPath>../../zephyr/include/bluetooth/hci.h</itemPath>
+              <itemPath>../../zephyr/include/bluetooth/hci_err.h</itemPath>
               <itemPath>../../zephyr/include/bluetooth/hci_vs.h</itemPath>
+              <itemPath>../../zephyr/include/bluetooth/iso.h</itemPath>
               <itemPath>../../zephyr/include/bluetooth/l2cap.h</itemPath>
               <itemPath>../../zephyr/include/bluetooth/uuid.h</itemPath>
             </logicalFolder>
             <logicalFolder name="debug" displayName="debug" projectFiles="true">
               <itemPath>../../zephyr/include/debug/coredump.h</itemPath>
               <itemPath>../../zephyr/include/debug/gcov.h</itemPath>
+              <itemPath>../../zephyr/include/debug/object_tracing_common.h</itemPath>
+              <itemPath>../../zephyr/include/debug/stack.h</itemPath>
             </logicalFolder>
             <logicalFolder name="devicetree" displayName="devicetree" projectFiles="true">
             </logicalFolder>
@@ -3257,6 +3320,7 @@
               <itemPath>../../zephyr/include/drivers/counter.h</itemPath>
               <itemPath>../../zephyr/include/drivers/entropy.h</itemPath>
               <itemPath>../../zephyr/include/drivers/gpio.h</itemPath>
+              <itemPath>../../zephyr/include/drivers/hwinfo.h</itemPath>
               <itemPath>../../zephyr/include/drivers/i2c.h</itemPath>
               <itemPath>../../zephyr/include/drivers/uart.h</itemPath>
               <itemPath>../../zephyr/include/drivers/watchdog.h</itemPath>
@@ -3269,11 +3333,23 @@
             </logicalFolder>
             <logicalFolder name="fs" displayName="fs" projectFiles="true">
             </logicalFolder>
+            <logicalFolder name="kernel" displayName="kernel" projectFiles="true">
+              <itemPath>../../zephyr/include/kernel/mempool_heap.h</itemPath>
+              <itemPath>../../zephyr/include/kernel/sched_priq.h</itemPath>
+              <itemPath>../../zephyr/include/kernel/thread.h</itemPath>
+              <itemPath>../../zephyr/include/kernel/thread_stack.h</itemPath>
+            </logicalFolder>
             <logicalFolder name="linker" displayName="linker" projectFiles="true">
             </logicalFolder>
             <logicalFolder name="logging" displayName="logging" projectFiles="true">
             </logicalFolder>
             <logicalFolder name="net" displayName="net" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder name="pm" displayName="pm" projectFiles="true">
+              <itemPath>../../zephyr/include/pm/device.h</itemPath>
+              <itemPath>../../zephyr/include/pm/pm.h</itemPath>
+              <itemPath>../../zephyr/include/pm/policy.h</itemPath>
+              <itemPath>../../zephyr/include/pm/state.h</itemPath>
             </logicalFolder>
             <logicalFolder name="posix" displayName="posix" projectFiles="true">
             </logicalFolder>
@@ -3287,6 +3363,10 @@
             </logicalFolder>
             <logicalFolder name="sys" displayName="sys" projectFiles="true">
             </logicalFolder>
+            <logicalFolder name="timing" displayName="timing" projectFiles="true">
+              <itemPath>../../zephyr/include/timing/timing.h</itemPath>
+              <itemPath>../../zephyr/include/timing/types.h</itemPath>
+            </logicalFolder>
             <logicalFolder name="toolchain" displayName="toolchain" projectFiles="true">
             </logicalFolder>
             <logicalFolder name="tracing" displayName="tracing" projectFiles="true">
@@ -3298,17 +3378,28 @@
             <logicalFolder name="zephyr" displayName="zephyr" projectFiles="true">
             </logicalFolder>
             <itemPath>../../zephyr/include/device.h</itemPath>
+            <itemPath>../../zephyr/include/devicetree.h</itemPath>
+            <itemPath>../../zephyr/include/exc_handle.h</itemPath>
             <itemPath>../../zephyr/include/fatal.h</itemPath>
             <itemPath>../../zephyr/include/init.h</itemPath>
+            <itemPath>../../zephyr/include/irq.h</itemPath>
+            <itemPath>../../zephyr/include/irq_offload.h</itemPath>
             <itemPath>../../zephyr/include/kernel.h</itemPath>
+            <itemPath>../../zephyr/include/kernel_includes.h</itemPath>
             <itemPath>../../zephyr/include/kernel_structs.h</itemPath>
+            <itemPath>../../zephyr/include/kernel_version.h</itemPath>
             <itemPath>../../zephyr/include/mempool_heap.h</itemPath>
+            <itemPath>../../zephyr/include/mempool_sys.h</itemPath>
             <itemPath>../../zephyr/include/sched_priq.h</itemPath>
             <itemPath>../../zephyr/include/spinlock.h</itemPath>
             <itemPath>../../zephyr/include/sw_isr_table.h</itemPath>
             <itemPath>../../zephyr/include/sys_clock.h</itemPath>
+            <itemPath>../../zephyr/include/syscall.h</itemPath>
+            <itemPath>../../zephyr/include/syscall_handler.h</itemPath>
             <itemPath>../../zephyr/include/timeout_q.h</itemPath>
+            <itemPath>../../zephyr/include/toolchain.h</itemPath>
             <itemPath>../../zephyr/include/wait_q.h</itemPath>
+            <itemPath>../../zephyr/include/zephyr.h</itemPath>
           </logicalFolder>
           <logicalFolder name="kernel" displayName="kernel" projectFiles="true">
             <logicalFolder name="include" displayName="include" projectFiles="true">
@@ -3321,6 +3412,8 @@
               <itemPath>../../zephyr/kernel/include/kswap.h</itemPath>
               <itemPath>../../zephyr/kernel/include/offsets_short.h</itemPath>
             </logicalFolder>
+            <itemPath>../../zephyr/kernel/banner.c</itemPath>
+            <itemPath>../../zephyr/kernel/condvar.c</itemPath>
             <itemPath>../../zephyr/kernel/device.c</itemPath>
             <itemPath>../../zephyr/kernel/errno.c</itemPath>
             <itemPath>../../zephyr/kernel/fatal.c</itemPath>
@@ -3345,7 +3438,9 @@
             <itemPath>../../zephyr/kernel/timeout.c</itemPath>
             <itemPath>../../zephyr/kernel/timer.c</itemPath>
             <itemPath>../../zephyr/kernel/version.c</itemPath>
+            <itemPath>../../zephyr/kernel/work.c</itemPath>
             <itemPath>../../zephyr/kernel/work_q.c</itemPath>
+            <itemPath>../../zephyr/kernel/xip.c</itemPath>
           </logicalFolder>
           <logicalFolder name="lib" displayName="lib" projectFiles="true">
             <logicalFolder name="libc" displayName="libc" projectFiles="true">
@@ -3390,6 +3485,7 @@
               <logicalFolder name="nrfx" displayName="nrfx" projectFiles="true">
                 <logicalFolder name="helpers" displayName="helpers" projectFiles="true">
                   <itemPath>../../modules/hal/nordic/nrfx/helpers/nrfx_gppi.h</itemPath>
+                  <itemPath>../../modules/hal/nordic/nrfx/helpers/nrfx_reset_reason.h</itemPath>
                 </logicalFolder>
                 <logicalFolder name="soc" displayName="soc" projectFiles="true">
                   <itemPath>../../modules/hal/nordic/nrfx/soc/nrfx_coredep.h</itemPath>
@@ -3410,6 +3506,7 @@
                 <itemPath>../../zephyr/include/drivers/clock_control/nrf_clock_control.h</itemPath>
               </logicalFolder>
               <logicalFolder name="timer" displayName="timer" projectFiles="true">
+                <itemPath>../../zephyr/include/drivers/timer/nrf_rtc_timer.h</itemPath>
                 <itemPath>../../zephyr/include/drivers/timer/system_timer.h</itemPath>
               </logicalFolder>
               <logicalFolder name="usb" displayName="usb" projectFiles="true">
@@ -3417,12 +3514,20 @@
               </logicalFolder>
             </logicalFolder>
             <logicalFolder name="linker" displayName="linker" projectFiles="true">
+              <itemPath>../../zephyr/include/linker/devicetree_reserved.h</itemPath>
               <itemPath>../../zephyr/include/linker/linker-defs.h</itemPath>
+              <itemPath>../../zephyr/include/linker/section_tags.h</itemPath>
+              <itemPath>../../zephyr/include/linker/sections.h</itemPath>
             </logicalFolder>
             <logicalFolder name="logging" displayName="logging" projectFiles="true">
+              <itemPath>../../zephyr/include/logging/log.h</itemPath>
               <itemPath>../../zephyr/include/logging/log_backend.h</itemPath>
+              <itemPath>../../zephyr/include/logging/log_core.h</itemPath>
+              <itemPath>../../zephyr/include/logging/log_core2.h</itemPath>
+              <itemPath>../../zephyr/include/logging/log_ctrl.h</itemPath>
               <itemPath>../../zephyr/include/logging/log_instance.h</itemPath>
               <itemPath>../../zephyr/include/logging/log_msg.h</itemPath>
+              <itemPath>../../zephyr/include/logging/log_msg2.h</itemPath>
               <itemPath>../../zephyr/include/logging/log_output.h</itemPath>
             </logicalFolder>
             <logicalFolder name="net" displayName="net" projectFiles="true">
@@ -3442,15 +3547,30 @@
               <itemPath>../../zephyr/include/shell/shell_types.h</itemPath>
             </logicalFolder>
             <logicalFolder name="sys" displayName="sys" projectFiles="true">
+              <itemPath>../../zephyr/include/sys/__assert.h</itemPath>
               <itemPath>../../zephyr/include/sys/arch_interface.h</itemPath>
               <itemPath>../../zephyr/include/sys/atomic.h</itemPath>
+              <itemPath>../../zephyr/include/sys/atomic_builtin.h</itemPath>
+              <itemPath>../../zephyr/include/sys/bitarray.h</itemPath>
               <itemPath>../../zephyr/include/sys/byteorder.h</itemPath>
+              <itemPath>../../zephyr/include/sys/cbprintf.h</itemPath>
+              <itemPath>../../zephyr/include/sys/cbprintf_cxx.h</itemPath>
+              <itemPath>../../zephyr/include/sys/cbprintf_internal.h</itemPath>
+              <itemPath>../../zephyr/include/sys/check.h</itemPath>
+              <itemPath>../../zephyr/include/sys/device_mmio.h</itemPath>
               <itemPath>../../zephyr/include/sys/dlist.h</itemPath>
+              <itemPath>../../zephyr/include/sys/errno_private.h</itemPath>
               <itemPath>../../zephyr/include/sys/fdtable.h</itemPath>
               <itemPath>../../zephyr/include/sys/kobject.h</itemPath>
+              <itemPath>../../zephyr/include/sys/libc-hooks.h</itemPath>
+              <itemPath>../../zephyr/include/sys/list_gen.h</itemPath>
+              <itemPath>../../zephyr/include/sys/math_extras.h</itemPath>
               <itemPath>../../zephyr/include/sys/math_extras_impl.h</itemPath>
+              <itemPath>../../zephyr/include/sys/mem_manage.h</itemPath>
               <itemPath>../../zephyr/include/sys/mempool.h</itemPath>
               <itemPath>../../zephyr/include/sys/mempool_base.h</itemPath>
+              <itemPath>../../zephyr/include/sys/mpsc_packet.h</itemPath>
+              <itemPath>../../zephyr/include/sys/mpsc_pbuf.h</itemPath>
               <itemPath>../../zephyr/include/sys/mutex.h</itemPath>
               <itemPath>../../zephyr/include/sys/notify.h</itemPath>
               <itemPath>../../zephyr/include/sys/onoff.h</itemPath>
@@ -3465,12 +3585,17 @@
               <itemPath>../../zephyr/include/sys/sys_io.h</itemPath>
               <itemPath>../../zephyr/include/sys/thread_stack.h</itemPath>
               <itemPath>../../zephyr/include/sys/time_units.h</itemPath>
+              <itemPath>../../zephyr/include/sys/timeutil.h</itemPath>
               <itemPath>../../zephyr/include/sys/util.h</itemPath>
+              <itemPath>../../zephyr/include/sys/util_internal.h</itemPath>
+              <itemPath>../../zephyr/include/sys/util_loops.h</itemPath>
+              <itemPath>../../zephyr/include/sys/util_macro.h</itemPath>
             </logicalFolder>
             <logicalFolder name="usb" displayName="usb" projectFiles="true">
               <logicalFolder name="class" displayName="class" projectFiles="true">
                 <itemPath>../../zephyr/include/usb/class/usb_cdc.h</itemPath>
               </logicalFolder>
+              <itemPath>../../zephyr/include/usb/bos.h</itemPath>
               <itemPath>../../zephyr/include/usb/usb_common.h</itemPath>
               <itemPath>../../zephyr/include/usb/usb_device.h</itemPath>
               <itemPath>../../zephyr/include/usb/usbstruct.h</itemPath>
@@ -3551,6 +3676,12 @@
                 <itemPath>../../../arch/arm/core/aarch32/cortex_m/irq_init.c</itemPath>
                 <itemPath>../../../arch/arm/core/aarch32/cortex_m/scb.c</itemPath>
                 <itemPath>../../../arch/arm/core/aarch32/cortex_m/thread_abort.c</itemPath>
+              </logicalFolder>
+              <logicalFolder name="mpu" displayName="mpu" projectFiles="true">
+                <itemPath>../../zephyr/arch/arm/core/aarch32/mpu/arm_core_mpu.c</itemPath>
+                <itemPath>../../zephyr/arch/arm/core/aarch32/mpu/arm_core_mpu_dev.h</itemPath>
+                <itemPath>../../zephyr/arch/arm/core/aarch32/mpu/arm_mpu.c</itemPath>
+                <itemPath>../../zephyr/arch/arm/core/aarch32/mpu/arm_mpu_v7_internal.h</itemPath>
               </logicalFolder>
               <itemPath>../../../arch/arm/core/aarch32/fatal.c</itemPath>
               <itemPath>../../../arch/arm/core/aarch32/irq_manage.c</itemPath>
@@ -3722,6 +3853,15 @@
         <logicalFolder name="posix" displayName="posix" projectFiles="true">
           <itemPath>../../../lib/posix/nanosleep.c</itemPath>
           <itemPath>../../../lib/posix/pthread_common.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder name="modules" displayName="modules" projectFiles="true">
+        <logicalFolder name="hal_nordic" displayName="hal_nordic" projectFiles="true">
+          <logicalFolder name="nrfx" displayName="nrfx" projectFiles="true">
+            <itemPath>../../zephyr/modules/hal_nordic/nrfx/nrfx_glue.c</itemPath>
+            <itemPath>../../zephyr/modules/hal_nordic/nrfx/nrfx_glue.h</itemPath>
+            <itemPath>../../zephyr/modules/hal_nordic/nrfx/nrfx_log.h</itemPath>
+          </logicalFolder>
         </logicalFolder>
       </logicalFolder>
       <logicalFolder name="soc" displayName="soc" projectFiles="true">
@@ -3921,6 +4061,15 @@
         <logicalFolder name="net" displayName="net" projectFiles="true">
           <itemPath>../../../subsys/net/buf.c</itemPath>
         </logicalFolder>
+        <logicalFolder name="pm" displayName="pm" projectFiles="true">
+          <logicalFolder name="policy" displayName="policy" projectFiles="true">
+            <itemPath>../../zephyr/subsys/pm/policy/policy_residency.c</itemPath>
+          </logicalFolder>
+          <itemPath>../../zephyr/subsys/pm/device.c</itemPath>
+          <itemPath>../../zephyr/subsys/pm/pm_ctrl.c</itemPath>
+          <itemPath>../../zephyr/subsys/pm/pm_priv.h</itemPath>
+          <itemPath>../../zephyr/subsys/pm/power.c</itemPath>
+        </logicalFolder>
         <logicalFolder name="power" displayName="power" projectFiles="true">
           <logicalFolder name="policy" displayName="policy" projectFiles="true">
             <itemPath>../../../subsys/power/policy/pm_policy.h</itemPath>
@@ -3930,6 +4079,9 @@
         </logicalFolder>
         <logicalFolder name="random" displayName="random" projectFiles="true">
           <itemPath>../../../subsys/random/rand32_entropy_device.c</itemPath>
+        </logicalFolder>
+        <logicalFolder name="tracing" displayName="tracing" projectFiles="true">
+          <itemPath>../../zephyr/subsys/tracing/tracing_none.c</itemPath>
         </logicalFolder>
         <logicalFolder name="usb" displayName="usb" projectFiles="true">
           <logicalFolder name="class" displayName="class" projectFiles="true">
@@ -3988,6 +4140,7 @@
                 <logicalFolder name="src" displayName="src" projectFiles="true">
                   <itemPath>../../../zephyrproject/modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c</itemPath>
                   <itemPath>../../modules/hal/nordic/nrfx/drivers/src/nrfx_clock.c</itemPath>
+                  <itemPath>../../modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c</itemPath>
                   <itemPath>../../../zephyrproject/modules/hal/nordic/nrfx/drivers/src/nrfx_power.c</itemPath>
                   <itemPath>../../modules/hal/nordic/nrfx/drivers/src/nrfx_power.c</itemPath>
                   <itemPath>../../../zephyrproject/modules/hal/nordic/nrfx/drivers/src/nrfx_ppi.c</itemPath>
@@ -4327,6 +4480,7 @@
                 <itemPath>../../zephyr/subsys/bluetooth/controller/hal/debug.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/hal/ecb.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/hal/radio.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/hal/radio_df.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/hal/swi.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/hal/ticker.h</itemPath>
               </logicalFolder>
@@ -4376,8 +4530,12 @@
                       <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/swi.h</itemPath>
                       <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ticker.c</itemPath>
                       <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ticker.c</itemPath>
+                      <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/nrf5/ticker.h</itemPath>
                     </logicalFolder>
+                    <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/cpu_vendor_hal.h</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/debug_vendor_hal.h</itemPath>
+                    <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/radio_vendor_hal.h</itemPath>
+                    <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/hal/ticker_vendor_hal.h</itemPath>
                   </logicalFolder>
                   <logicalFolder name="lll" displayName="lll" projectFiles="true">
                     <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll.c</itemPath>
@@ -4405,25 +4563,38 @@
                     <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_vendor.h</itemPath>
                   </logicalFolder>
                 </logicalFolder>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/isoal.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ll_addr.c</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ll_addr.c</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ll_feat.c</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ll_tx_pwr.c</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ll_tx_pwr.c</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/lll.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_adv.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_adv_aux.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_adv_sync.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/lll_chan.c</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_chan.c</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_chan.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/lll_clock.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_clock.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_common.c</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/lll_conn.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_conn.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_conn_iso.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_df.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/lll_filter.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_filter.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_master.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/lll_scan.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_scan.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_scan_aux.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_sched.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_slave.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/lll_sync.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_sync.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/lll_sync_iso.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/pdu.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/pdu.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull.c</itemPath>
@@ -4438,6 +4609,7 @@
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_adv_sync.c</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_adv_types.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_adv_types.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_central_iso_internal.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_chan.c</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_chan.c</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_chan_internal.h</itemPath>
@@ -4446,18 +4618,25 @@
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_conn.c</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_conn_internal.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_conn_internal.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_conn_iso_internal.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_conn_iso_types.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_conn_types.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_conn_types.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_df_internal.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_df_types.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_filter.c</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_filter.c</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_filter.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_filter.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_internal.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_internal.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_iso_internal.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_iso_types.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_master.c</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_master.c</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_master_internal.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_master_internal.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_peripheral_iso_internal.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_scan.c</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_scan.c</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_scan_aux.c</itemPath>
@@ -4478,6 +4657,7 @@
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_sync.c</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_sync_internal.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_sync_internal.h</itemPath>
+                <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_sync_iso_internal.h</itemPath>
                 <itemPath>../../../zephyrproject/zephyr/subsys/bluetooth/controller/ll_sw/ull_sync_types.h</itemPath>
                 <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/ull_sync_types.h</itemPath>
               </logicalFolder>
@@ -4601,10 +4781,13 @@
                 <itemPath>../../modules/hal/nordic/nrfx/mdk/nrf91_erratas.h</itemPath>
                 <itemPath>../../modules/hal/nordic/nrfx/mdk/nrf_erratas.h</itemPath>
                 <itemPath>../../modules/hal/nordic/nrfx/mdk/nrf_peripherals.h</itemPath>
+                <itemPath>../../modules/hal/nordic/nrfx/mdk/system_nrf52.c</itemPath>
+                <itemPath>../../modules/hal/nordic/nrfx/mdk/system_nrf52.h</itemPath>
                 <itemPath>../../modules/hal/nordic/nrfx/mdk/system_nrf52833.c</itemPath>
                 <itemPath>../../modules/hal/nordic/nrfx/mdk/system_nrf52833.h</itemPath>
                 <itemPath>../../modules/hal/nordic/nrfx/mdk/system_nrf52840.c</itemPath>
                 <itemPath>../../modules/hal/nordic/nrfx/mdk/system_nrf52840.h</itemPath>
+                <itemPath>../../modules/hal/nordic/nrfx/mdk/system_nrf52_approtect.h</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -4623,6 +4806,7 @@
                     <itemPath>../../zephyr/arch/arm/core/aarch32/cortex_m/mpu/arm_mpu_v7_internal.h</itemPath>
                   </logicalFolder>
                   <itemPath>../../zephyr/arch/arm/core/aarch32/cortex_m/fault.c</itemPath>
+                  <itemPath>../../zephyr/arch/arm/core/aarch32/cortex_m/fpu.c</itemPath>
                   <itemPath>../../zephyr/arch/arm/core/aarch32/cortex_m/irq_init.c</itemPath>
                   <itemPath>../../zephyr/arch/arm/core/aarch32/cortex_m/scb.c</itemPath>
                   <itemPath>../../zephyr/arch/arm/core/aarch32/cortex_m/thread_abort.c</itemPath>
@@ -4680,8 +4864,13 @@
         </logicalFolder>
         <logicalFolder name="lib" displayName="lib" projectFiles="true">
           <logicalFolder name="os" displayName="os" projectFiles="true">
+            <itemPath>../../zephyr/lib/os/bitarray.c</itemPath>
+            <itemPath>../../zephyr/lib/os/cbprintf.c</itemPath>
+            <itemPath>../../zephyr/lib/os/cbprintf_complete.c</itemPath>
+            <itemPath>../../zephyr/lib/os/cbprintf_packaged.c</itemPath>
             <itemPath>../../zephyr/lib/os/crc16_sw.c</itemPath>
             <itemPath>../../zephyr/lib/os/crc32_sw.c</itemPath>
+            <itemPath>../../zephyr/lib/os/crc32c_sw.c</itemPath>
             <itemPath>../../zephyr/lib/os/crc7_sw.c</itemPath>
             <itemPath>../../zephyr/lib/os/crc8_sw.c</itemPath>
             <itemPath>../../zephyr/lib/os/dec.c</itemPath>
@@ -4720,6 +4909,7 @@
                 <itemPath>../../zephyr/soc/arm/nordic_nrf/nrf52/soc.c</itemPath>
                 <itemPath>../../zephyr/soc/arm/nordic_nrf/nrf52/soc.h</itemPath>
               </logicalFolder>
+              <itemPath>../../zephyr/soc/arm/nordic_nrf/soc_nrf_common.h</itemPath>
               <itemPath>../../zephyr/soc/arm/nordic_nrf/validate_base_addresses.c</itemPath>
               <itemPath>../../zephyr/soc/arm/nordic_nrf/validate_enabled_instances.c</itemPath>
             </logicalFolder>
@@ -4740,10 +4930,14 @@
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_aux.c</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_aux.h</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_internal.h</itemPath>
+                    <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_pdu.h</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_sync.c</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_sync.h</itemPath>
+                    <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_adv_types.h</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_clock.c</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_conn.c</itemPath>
+                    <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_df_internal.h</itemPath>
+                    <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_df_types.h</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_internal.h</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_master.c</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_master.h</itemPath>
@@ -4751,6 +4945,7 @@
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_scan.c</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_scan_aux.c</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_scan_aux.h</itemPath>
+                    <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_scan_internal.h</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_sched.h</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_slave.c</itemPath>
                     <itemPath>../../zephyr/subsys/bluetooth/controller/ll_sw/nordic/lll/lll_slave.h</itemPath>
@@ -4769,11 +4964,16 @@
               <logicalFolder name="audio" displayName="audio" projectFiles="true">
                 <itemPath>../../zephyr/subsys/bluetooth/host/audio/iso_internal.h</itemPath>
               </logicalFolder>
+              <itemPath>../../zephyr/subsys/bluetooth/host/addr.c</itemPath>
+              <itemPath>../../zephyr/subsys/bluetooth/host/adv.c</itemPath>
+              <itemPath>../../zephyr/subsys/bluetooth/host/adv.h</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/att.c</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/att_internal.h</itemPath>
+              <itemPath>../../zephyr/subsys/bluetooth/host/buf.c</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/conn.c</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/conn_internal.h</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/crypto.h</itemPath>
+              <itemPath>../../zephyr/subsys/bluetooth/host/direction_internal.h</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/ecc.h</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/gatt.c</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/gatt_internal.h</itemPath>
@@ -4781,10 +4981,15 @@
               <itemPath>../../zephyr/subsys/bluetooth/host/hci_core.c</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/hci_core.h</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/hci_ecc.h</itemPath>
+              <itemPath>../../zephyr/subsys/bluetooth/host/id.c</itemPath>
+              <itemPath>../../zephyr/subsys/bluetooth/host/id.h</itemPath>
+              <itemPath>../../zephyr/subsys/bluetooth/host/iso_internal.h</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/keys.h</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/l2cap.c</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/l2cap_internal.h</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/monitor.h</itemPath>
+              <itemPath>../../zephyr/subsys/bluetooth/host/scan.c</itemPath>
+              <itemPath>../../zephyr/subsys/bluetooth/host/scan.h</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/settings.h</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/smp.h</itemPath>
               <itemPath>../../zephyr/subsys/bluetooth/host/smp_null.c</itemPath>
@@ -11832,6 +12037,31 @@
           </incDir>
         </cTool>
       </item>
+      <item path="../../modules/hal/nordic/nrfx/drivers/src/nrfx_gpiote.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../modules/hal/nordic/nrfx/hal</pElem>
+            <pElem>../../modules/hal/nordic/nrfx/drivers/src</pElem>
+            <pElem>../../modules/hal/nordic/nrfx/drivers/include</pElem>
+            <pElem>../../modules/hal/nordic/nrfx/drivers</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../modules/hal/nordic/nrfx/mdk</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../zephyr/modules/hal_nordic/nrfx</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>../../modules/hal/nordic/nrfx</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
       <item path="../../modules/hal/nordic/nrfx/drivers/src/nrfx_power.c"
             ex="false"
             tool="0"
@@ -11983,6 +12213,11 @@
             <pElem>build</pElem>
           </incDir>
         </cTool>
+      </item>
+      <item path="../../modules/hal/nordic/nrfx/mdk/system_nrf52.c"
+            ex="true"
+            tool="3"
+            flavor2="0">
       </item>
       <item path="../../modules/hal/nordic/nrfx/mdk/system_nrf52840.c"
             ex="false"
@@ -12232,6 +12467,22 @@
           </incDir>
         </cTool>
       </item>
+      <item path="../../zephyr/arch/arm/core/aarch32/cortex_m/fpu.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/arch/arm/core/aarch32/cortex_m</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32/cortex_m</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
       <item path="../../zephyr/arch/arm/core/aarch32/cortex_m/irq_init.c"
             ex="false"
             tool="0"
@@ -12360,6 +12611,48 @@
             <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
             <pElem>../../modules/hal/nordic/nrfx/mdk</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/arch/arm/core/aarch32/mpu/arm_core_mpu.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../zephyr/include/kernel</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32/mpu</pElem>
+            <pElem>../../zephyr/arch/arm/include</pElem>
+            <pElem>../../zephyr/include/linker</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/arch/arm/core/aarch32/mpu/arm_mpu.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../modules/hal/cmsis/CMSIS/Core/Include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32/mpu</pElem>
+            <pElem>../../zephyr/arch/arm/include</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>../../zephyr/include</pElem>
             <pElem>build</pElem>
           </incDir>
         </cTool>
@@ -12667,6 +12960,38 @@
             tool="0"
             flavor2="3">
         <cTool flags="3">
+        </cTool>
+      </item>
+      <item path="../../zephyr/kernel/banner.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/kernel</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>build/zephyr/include/generated/syscalls</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/kernel/condvar.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/kernel</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
+            <pElem>../../zephyr/arch/arm/include/aarch32</pElem>
+            <pElem>build/zephyr/include/generated/syscalls</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/kernel</pElem>
+            <pElem>../../zephyr/kernel/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build/zephyr/include/generated</pElem>
+            <pElem>build</pElem>
+          </incDir>
         </cTool>
       </item>
       <item path="../../zephyr/kernel/device.c" ex="false" tool="0" flavor2="3">
@@ -13101,6 +13426,26 @@
           </incDir>
         </cTool>
       </item>
+      <item path="../../zephyr/kernel/work.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/kernel</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>build/zephyr/include/generated/syscalls</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
+            <pElem>../../zephyr/kernel/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/kernel</pElem>
+            <pElem>../../zephyr/include/arch</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build/zephyr/include/generated</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
       <item path="../../zephyr/kernel/work_q.c" ex="false" tool="0" flavor2="3">
         <cTool flags="3">
           <incDir>
@@ -13119,11 +13464,88 @@
           </incDir>
         </cTool>
       </item>
+      <item path="../../zephyr/kernel/xip.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/kernel</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/ssp</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/linker</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
       <item path="../../zephyr/lib/libc/newlib/libc-hooks.c"
             ex="false"
             tool="0"
             flavor2="3">
         <cTool flags="3">
+        </cTool>
+      </item>
+      <item path="../../zephyr/lib/os/bitarray.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/lib/os</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
+            <pElem>../../zephyr/include/arch/common</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/lib/os/cbprintf.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/lib/os</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/lib/os/cbprintf_complete.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/lib/os</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/lib/os/cbprintf_packaged.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/lib/os</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/ssp</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>build</pElem>
+          </incDir>
         </cTool>
       </item>
       <item path="../../zephyr/lib/os/crc16_sw.c" ex="false" tool="0" flavor2="3">
@@ -13145,6 +13567,18 @@
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/lib/os/crc32c_sw.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/lib/os</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
             <pElem>build</pElem>
           </incDir>
@@ -13418,6 +13852,13 @@
           </incDir>
         </cTool>
       </item>
+      <item path="../../zephyr/modules/hal_nordic/nrfx/nrfx_glue.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+        </cTool>
+      </item>
       <item path="../../zephyr/soc/arm/common/cortex_m/arm_mpu_regions.c"
             ex="false"
             tool="0"
@@ -13431,16 +13872,11 @@
             flavor2="3">
         <cTool flags="3">
           <incDir>
-            <pElem>../../modules/hal/nordic/nrfx/hal</pElem>
-            <pElem>../../modules/hal/cmsis/CMSIS/Core/Include</pElem>
-            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
-            <pElem>../../modules/hal/nordic/nrfx/mdk</pElem>
             <pElem>../../zephyr/include/logging</pElem>
             <pElem>../../zephyr/include/power</pElem>
             <pElem>../../zephyr/include</pElem>
-            <pElem>../../modules/hal/nordic/nrfx</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
             <pElem>build</pElem>
           </incDir>
@@ -13452,7 +13888,6 @@
             flavor2="3">
         <cTool flags="3">
           <incDir>
-            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
             <pElem>../../modules/hal/nordic/nrfx/hal</pElem>
             <pElem>../../modules/hal/cmsis/CMSIS/Core/Include</pElem>
             <pElem>../../modules/hal/nordic/nrfx/soc</pElem>
@@ -13640,6 +14075,23 @@
           </incDir>
         </cTool>
       </item>
+      <item path="../../zephyr/subsys/bluetooth/controller/ll_sw/ll_feat.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>../../zephyr/subsys/bluetooth/controller/ll_sw</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../zephyr/subsys/bluetooth/common</pElem>
+            <pElem>../../zephyr/subsys/bluetooth</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
       <item path="../../zephyr/subsys/bluetooth/controller/ll_sw/ll_tx_pwr.c"
             ex="false"
             tool="0"
@@ -13670,6 +14122,25 @@
             <pElem>../../zephyr/include/logging</pElem>
             <pElem>../../zephyr/subsys/bluetooth/common</pElem>
             <pElem>../../zephyr/subsys/bluetooth/controller</pElem>
+            <pElem>../../zephyr/subsys/bluetooth</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/subsys/bluetooth/controller/ll_sw/lll_common.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="2">
+          <incDir>
+            <pElem>../../zephyr/subsys/bluetooth/controller/ll_sw</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../zephyr/subsys/bluetooth/common</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../zephyr/include</pElem>
             <pElem>../../zephyr/subsys/bluetooth</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
             <pElem>build</pElem>
@@ -14452,6 +14923,48 @@
           </incDir>
         </cTool>
       </item>
+      <item path="../../zephyr/subsys/bluetooth/host/addr.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/subsys/bluetooth/host</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/bluetooth</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/subsys/bluetooth/host/adv.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/subsys/bluetooth/host</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../zephyr/include/net</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/ssp</pElem>
+            <pElem>../../zephyr/include/bluetooth</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/kernel</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../zephyr/subsys/bluetooth/common</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>../../zephyr/subsys/bluetooth</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
       <item path="../../zephyr/subsys/bluetooth/host/att.c"
             ex="false"
             tool="0"
@@ -14474,6 +14987,30 @@
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
             <pElem>../../zephyr/subsys/bluetooth</pElem>
             <pElem>build/zephyr/include/generated</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/subsys/bluetooth/host/buf.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/subsys/bluetooth/host</pElem>
+            <pElem>../../zephyr/include/net</pElem>
+            <pElem>../../zephyr/include/bluetooth</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../zephyr/include/kernel</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../zephyr/subsys/bluetooth/common</pElem>
+            <pElem>../../zephyr/subsys/bluetooth</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
             <pElem>build</pElem>
           </incDir>
         </cTool>
@@ -14580,6 +15117,32 @@
           </incDir>
         </cTool>
       </item>
+      <item path="../../zephyr/subsys/bluetooth/host/id.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/subsys/bluetooth/host</pElem>
+            <pElem>../../zephyr/include/bluetooth</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/ssp</pElem>
+            <pElem>../../zephyr/include/net</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/kernel</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
+            <pElem>../../zephyr/include/drivers/bluetooth</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../zephyr/subsys/bluetooth/common</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>../../zephyr/subsys/bluetooth</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
       <item path="../../zephyr/subsys/bluetooth/host/l2cap.c"
             ex="false"
             tool="0"
@@ -14599,6 +15162,31 @@
             <pElem>../../zephyr/subsys/bluetooth/common</pElem>
             <pElem>../../zephyr/subsys/bluetooth</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/subsys/bluetooth/host/scan.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/subsys/bluetooth/host</pElem>
+            <pElem>../../zephyr/include/net</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/ssp</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../zephyr/include/bluetooth</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/kernel</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../zephyr/subsys/bluetooth/common</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>../../zephyr/subsys/bluetooth</pElem>
             <pElem>build</pElem>
           </incDir>
         </cTool>
@@ -14670,6 +15258,63 @@
         <cTool flags="3">
         </cTool>
       </item>
+      <item path="../../zephyr/subsys/pm/device.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/subsys/pm</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../zephyr/include/kernel</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
+            <pElem>../../zephyr/include/pm</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/subsys/pm/pm_ctrl.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/subsys/pm</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../zephyr/include/pm</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
+      <item path="../../zephyr/subsys/pm/policy/policy_residency.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+        </cTool>
+      </item>
+      <item path="../../zephyr/subsys/pm/power.c" ex="false" tool="0" flavor2="3">
+        <cTool flags="3">
+          <incDir>
+            <pElem>../../zephyr/subsys/pm</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include/pm</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </item>
       <item path="../../zephyr/subsys/power/device.c" ex="false" tool="0" flavor2="3">
         <cTool flags="3">
           <incDir>
@@ -14736,11 +15381,11 @@
         <cTool flags="3">
           <incDir>
             <pElem>../../zephyr/subsys/power</pElem>
-            <pElem>../../zephyr/include/power</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
             <pElem>../../zephyr/include</pElem>
             <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../zephyr/include/power</pElem>
             <pElem>../../zephyr/subsys/power/policy</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
             <pElem>build</pElem>
@@ -14748,6 +15393,13 @@
         </cTool>
       </item>
       <item path="../../zephyr/subsys/random/rand32_entropy_device.c"
+            ex="false"
+            tool="0"
+            flavor2="3">
+        <cTool flags="3">
+        </cTool>
+      </item>
+      <item path="../../zephyr/subsys/tracing/tracing_none.c"
             ex="false"
             tool="0"
             flavor2="3">
@@ -14918,6 +15570,13 @@
         <cTool>
           <incDir>
             <pElem>../../../arch/arm/core/aarch32/cortex_m/mpu</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="zephyr/arch/arm/core/aarch32/mpu">
+        <cTool>
+          <incDir>
+            <pElem>../../zephyr/arch/arm/core/aarch32/mpu</pElem>
           </incDir>
         </cTool>
       </folder>
@@ -15124,6 +15783,19 @@
           </incDir>
         </cTool>
       </folder>
+      <folder path="zephyr/modules">
+        <cTool>
+          <incDir>
+            <pElem>../../zephyr/modules/hal_nordic/nrfx</pElem>
+            <pElem>build/zephyr/include/generated/syscalls</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../modules/hal/nordic/nrfx/drivers</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </folder>
       <folder path="zephyr/soc/arm/common">
         <cTool>
           <incDir>
@@ -15275,6 +15947,22 @@
           </incDir>
         </cTool>
       </folder>
+      <folder path="zephyr/subsys/pm/policy">
+        <cTool>
+          <incDir>
+            <pElem>../../zephyr/subsys/pm/policy</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/machine</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include/sys</pElem>
+            <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/pm</pElem>
+            <pElem>../../zephyr/include/logging</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
+            <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/sys-include</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </folder>
       <folder path="zephyr/subsys/power/policy">
         <cTool>
           <incDir>
@@ -15310,6 +15998,14 @@
             <pElem>../../../../modules/hal/nordic</pElem>
             <pElem>../../../include/arch/arm/aarch32/cortex_m/mpu</pElem>
             <pElem>build/zephyr/include/generated</pElem>
+            <pElem>build</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="zephyr/subsys/tracing">
+        <cTool>
+          <incDir>
+            <pElem>../../zephyr/subsys/tracing</pElem>
             <pElem>build</pElem>
           </incDir>
         </cTool>
@@ -15481,8 +16177,8 @@
             <pElem>../../modules/hal/nordic/nrfx/hal</pElem>
             <pElem>../../zephyr/drivers/serial</pElem>
             <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
-            <pElem>../../zephyr/include/sys</pElem>
             <pElem>../../zephyr/include</pElem>
+            <pElem>../../zephyr/include/sys</pElem>
             <pElem>build/zephyr/include/generated/syscalls</pElem>
             <pElem>../../modules/hal/nordic/nrfx/helpers</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/lib/gcc/arm-zephyr-eabi/10.2.0/include</pElem>
@@ -15553,6 +16249,7 @@
         <cTool>
           <incDir>
             <pElem>../../zephyr/soc/arm/nordic_nrf/nrf52</pElem>
+            <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
           </incDir>
         </cTool>
       </folder>
@@ -16338,7 +17035,6 @@
             <pElem>../../zephyr/include/arch/arm/aarch32</pElem>
             <pElem>../../zephyr/include/app_memory</pElem>
             <pElem>../../zephyr/include/bluetooth</pElem>
-            <pElem>../../zephyr/include/usb</pElem>
             <pElem>build/zephyr/include/generated</pElem>
             <pElem>../../../zephyr-sdk-0.12.4/arm-zephyr-eabi/arm-zephyr-eabi/include/c++/10.2.0/arm-zephyr-eabi/thumb/v7e-m/nofp</pElem>
             <pElem>build</pElem>

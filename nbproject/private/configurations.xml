@@ -52,7 +52,7 @@
             <df name="CMakeFiles">
             </df>
           </df>
-          <df name="CANopenNode">
+          <df name="canopennode">
             <df name="CMakeFiles">
             </df>
           </df>
@@ -76,42 +76,12 @@
             <df name="CMakeFiles">
             </df>
           </df>
-          <df name="espressif">
+          <df name="esp-idf">
             <df name="CMakeFiles">
             </df>
           </df>
           <df name="fatfs">
             <df name="CMakeFiles">
-            </df>
-          </df>
-          <df name="hal_nordic">
-            <df name="CMakeFiles">
-            </df>
-            <df name="nrfx">
-              <df name="CMakeFiles">
-                <df name="modules__hal_nordic__nrfx.dir">
-                  <df name="home">
-                    <df name="mdarweash">
-                      <df name="zephyrProjects">
-                        <df name="modules">
-                          <df name="hal">
-                            <df name="nordic">
-                              <df name="nrfx">
-                                <df name="drivers">
-                                  <df name="src">
-                                  </df>
-                                </df>
-                                <df name="mdk">
-                                </df>
-                              </df>
-                            </df>
-                          </df>
-                        </df>
-                      </df>
-                    </df>
-                  </df>
-                </df>
-              </df>
             </df>
           </df>
           <df name="infineon">
@@ -134,15 +104,7 @@
             <df name="CMakeFiles">
             </df>
           </df>
-          <df name="lz4">
-            <df name="CMakeFiles">
-            </df>
-          </df>
           <df name="mbedtls">
-            <df name="CMakeFiles">
-            </df>
-          </df>
-          <df name="mcuboot">
             <df name="CMakeFiles">
             </df>
           </df>
@@ -158,8 +120,22 @@
             <df name="CMakeFiles">
             </df>
           </df>
-          <df name="nanopb">
+          <df name="nordic">
             <df name="CMakeFiles">
+              <df name="..__modules__hal__nordic.dir">
+                <df name="nrfx">
+                  <df name="drivers">
+                    <df name="src">
+                    </df>
+                  </df>
+                  <df name="mdk">
+                  </df>
+                </df>
+              </df>
+            </df>
+            <df name="drivers">
+              <df name="CMakeFiles">
+              </df>
             </df>
           </df>
           <df name="nrf_hw_models">
@@ -198,10 +174,6 @@
             <df name="CMakeFiles">
             </df>
           </df>
-          <df name="sof">
-            <df name="CMakeFiles">
-            </df>
-          </df>
           <df name="st">
             <df name="CMakeFiles">
             </df>
@@ -210,11 +182,7 @@
             <df name="CMakeFiles">
             </df>
           </df>
-          <df name="telink">
-            <df name="CMakeFiles">
-            </df>
-          </df>
-          <df name="tensorflow">
+          <df name="tfm">
             <df name="CMakeFiles">
             </df>
           </df>
@@ -246,14 +214,6 @@
               </df>
             </df>
           </df>
-          <df name="TraceRecorder">
-            <df name="CMakeFiles">
-            </df>
-          </df>
-          <df name="trusted-firmware-m">
-            <df name="CMakeFiles">
-            </df>
-          </df>
           <df name="xtensa">
             <df name="CMakeFiles">
             </df>
@@ -276,10 +236,10 @@
                         <df name="arch__arm__core__aarch32__cortex_m.dir">
                         </df>
                       </df>
-                    </df>
-                    <df name="mpu">
-                      <df name="CMakeFiles">
-                        <df name="arch__arm__core__aarch32__mpu.dir">
+                      <df name="mpu">
+                        <df name="CMakeFiles">
+                          <df name="arch__arm__core__aarch32__cortex_m__mpu.dir">
+                          </df>
                         </df>
                       </df>
                     </df>
@@ -300,11 +260,9 @@
           </df>
           <df name="boards">
             <df name="arm">
-              <df name="arduino_nano_33_ble">
+              <df name="nrf52840dongle_nrf52840">
                 <df name="CMakeFiles">
-                  <df name="boards__arm__arduino_nano_33_ble.dir">
-                    <df name="src">
-                    </df>
+                  <df name="boards__arm__nrf52840dongle_nrf52840.dir">
                   </df>
                 </df>
               </df>
@@ -373,8 +331,6 @@
               <df name="soc">
                 <df name="arm">
                   <df name="nordic_nrf">
-                    <df name="common">
-                    </df>
                   </df>
                 </df>
               </df>
@@ -387,11 +343,9 @@
                     </df>
                   </df>
                 </df>
-                <df name="pm">
+                <df name="power">
                   <df name="policy">
                   </df>
-                </df>
-                <df name="tracing">
                 </df>
               </df>
             </df>
@@ -429,10 +383,6 @@
               <df name="CMakeFiles">
               </df>
             </df>
-            <df name="disk">
-              <df name="CMakeFiles">
-              </df>
-            </df>
             <df name="entropy">
               <df name="CMakeFiles">
                 <df name="drivers__entropy.dir">
@@ -452,10 +402,6 @@
               </df>
             </df>
             <df name="interrupt_controller">
-              <df name="CMakeFiles">
-              </df>
-            </df>
-            <df name="misc">
               <df name="CMakeFiles">
               </df>
             </df>
@@ -493,6 +439,7 @@
                 <in>adc_channel_setup_mrsh.c</in>
                 <in>adc_read_async_mrsh.c</in>
                 <in>adc_read_mrsh.c</in>
+                <in>atomic.h</in>
                 <in>atomic_add_mrsh.c</in>
                 <in>atomic_and_mrsh.c</in>
                 <in>atomic_c.h</in>
@@ -915,10 +862,6 @@
               <df name="CMakeFiles">
                 <df name="lib__posix.dir">
                 </df>
-              </df>
-            </df>
-            <df name="util">
-              <df name="CMakeFiles">
               </df>
             </df>
           </df>
@@ -2301,6 +2244,24 @@
                   <in>arm_mpu_v8m.h</in>
                   <in>nxp_mpu.h</in>
                 </df>
+                <df name="include_arch_arm_aarch64">
+                  <df name="scripts">
+                  </df>
+                  <in>arch.h</in>
+                  <in>arm_mmu.h</in>
+                  <in>asm_inline.h</in>
+                  <in>asm_inline_gcc.h</in>
+                  <in>cpu.h</in>
+                  <in>exc.h</in>
+                  <in>irq.h</in>
+                  <in>misc.h</in>
+                  <in>sys_io.h</in>
+                  <in>syscall.h</in>
+                  <in>thread.h</in>
+                  <in>timer.h</in>
+                </df>
+                <df name="include_arch_arm_aarch64_scripts">
+                </df>
                 <df name="include_arch_common">
                   <in>addr_types.h</in>
                   <in>ffs.h</in>
@@ -2488,6 +2449,12 @@
                 <df name="include_canbus">
                   <in>canopen.h</in>
                   <in>isotp.h</in>
+                </df>
+                <df name="include_cmsis_rtos_v1">
+                  <in>cmsis_os.h</in>
+                </df>
+                <df name="include_cmsis_rtos_v2">
+                  <in>cmsis_os2.h</in>
                 </df>
                 <df name="include_console">
                   <in>console.h</in>
@@ -2922,6 +2889,9 @@
                   <in>ili9340.h</in>
                   <in>ili9xxx.h</in>
                 </df>
+                <df name="include_dt-bindings_dma">
+                  <in>stm32_dma.h</in>
+                </df>
                 <df name="include_dt-bindings_espi">
                   <in>npcx_espi.h</in>
                 </df>
@@ -3323,10 +3293,6 @@
               <df name="nordic_nrf">
                 <df name="CMakeFiles">
                 </df>
-                <df name="common">
-                  <df name="CMakeFiles">
-                  </df>
-                </df>
                 <df name="nrf52">
                   <df name="CMakeFiles">
                     <df name="soc__arm__nordic_nrf__nrf52.dir">
@@ -3407,19 +3373,11 @@
               <df name="CMakeFiles">
               </df>
             </df>
-            <df name="ipc">
-              <df name="CMakeFiles">
-              </df>
-            </df>
             <df name="logging">
               <df name="CMakeFiles">
               </df>
             </df>
             <df name="mgmt">
-              <df name="CMakeFiles">
-              </df>
-            </df>
-            <df name="modbus">
               <df name="CMakeFiles">
               </df>
             </df>
@@ -3437,16 +3395,12 @@
                 </df>
               </df>
             </df>
-            <df name="pm">
+            <df name="power">
               <df name="CMakeFiles">
               </df>
               <df name="policy">
                 <df name="CMakeFiles">
                 </df>
-              </df>
-            </df>
-            <df name="portability">
-              <df name="CMakeFiles">
               </df>
             </df>
             <df name="random">
@@ -3460,10 +3414,6 @@
               </df>
             </df>
             <df name="storage">
-              <df name="CMakeFiles">
-              </df>
-            </df>
-            <df name="task_wdt">
               <df name="CMakeFiles">
               </df>
             </df>

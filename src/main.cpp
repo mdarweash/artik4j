@@ -31,7 +31,7 @@
 #include "Q_adc.hpp"
 #include "Q_Globals.hpp"
 // ------------CONFIGURATION---------------
-//#define USB_UART
+#define USB_UART
 
 #ifdef CONFIG_USB
 #endif
@@ -246,7 +246,7 @@ void thread_ble()
 	printq("thread_blue started..\n");
 	start_ble5_scanner();
 	while (1) {
-
+		k_sleep(K_SECONDS(1));
 	}
 }
 
